@@ -1,7 +1,108 @@
+
+# General ignores (applies to all languages)
+**/.DS_Store
+**/Thumbs.db
+**/*.swp
+**/*.swo
+**/*.bak
+**/*.tmp
+**/*.log
+**/*.out
+**/*.lock
+**/*.cache
+**/.vscode/
+**/.idea/
+**/.vim/
+**/*.iml
+
+# Go
+**/bin/
+**/vendor/
+**/*.exe
+**/*.test
+**/*.out
+**/*.coverprofile
+**/*.prof
+**/*.pb.go
+
+# Rust
+**/target/
+**/Cargo.lock
+**/*.rs.bk
+
+# PHP
+**/vendor/
+**/composer.lock
+**/*.phar
+**/.phpunit.result.cache
+
+# Zig
 **/.zig-cache/
+**/zig-out/
+**/*.o
+**/*.a
+**/*.so
+**/*.exe
 
+# Java
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/.gradle/
+**/.build/
+**/*.iml
+**/.idea/
+**/out/
+**/bin/
+**/target/
+**/*.project
+**/*.classpath
+**/.settings/
+**/.mvn/
+**/*.log
 
+# Gradle
+**/.gradle
+**/build/
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/.gradle/
+**/out/
+**/bin/
 
+# Maven
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/release.properties
 
-
+# Miscellaneous
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/node_modules/
+**/dist/
+**/coverage/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/__pycache__/
+**/*.rbc
+**/*.sass-cache
+**/.eslintcache
+**/*.mo
+**/*.swp
+**/*.swo
+**/*.bak
+**/*.tmp
+**/*.pid
+**/*.seed
+**/*.sqlite
+**/*.sqlite3
+**/*.db
 
