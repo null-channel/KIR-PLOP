@@ -1,0 +1,8 @@
+
+[2025-02-17T16:01:57.486Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T16:01:57.487Z] Logging in to https://app.garden.io...
+
+[2025-02-17T16:01:57.487Z] [debug] Redirecting to https://app.garden.io login page...
+
+[2025-02-17T16:02:19.056Z] [debug] Done flushing all events and log entries.

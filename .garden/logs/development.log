@@ -1,0 +1,8 @@
+
+[2025-02-17T15:57:58.417Z] -> Created new project config in project.garden.yml
+
+[2025-02-17T15:57:58.418Z] -> Created default .gardenignore file at .gardenignore. Please edit the .gardenignore file to add files or patterns that Garden should ignore when scanning and building.
+
+[2025-02-17T15:57:58.421Z] For more information about Garden configuration files, please check out
+https://docs.garden.io/using-garden/configuration-overview, and for a detailed reference, take a look at
+https://docs.garden.io/reference/project-config.

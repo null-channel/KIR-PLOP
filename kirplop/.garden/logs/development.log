@@ -1,0 +1,92 @@
+
+[2025-02-17T16:01:57.487Z] Logging in to https://app.garden.io...
+
+[2025-02-17T16:02:30.162Z] Authorizing...
+
+[2025-02-17T16:02:30.170Z] Unable to load Garden project found at /home/marek/code/job_hunting: Error: Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:02:30.174Z] Garden server has successfully started at port 9777
+
+
+[2025-02-17T16:03:26.264Z] Authorizing...
+
+[2025-02-17T16:03:26.270Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:03:30.357Z] Authorizing...
+
+[2025-02-17T16:03:30.362Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:03:40.741Z] Authorizing...
+
+[2025-02-17T16:03:40.741Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:03:40.741Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:03:40.746Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:04:16.795Z] Authorizing...
+
+[2025-02-17T16:04:16.795Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:04:16.796Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:04:16.800Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:04:42.131Z] Authorizing...
+
+[2025-02-17T16:04:42.131Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:04:42.131Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:04:42.137Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:04:44.773Z] Authorizing...
+
+[2025-02-17T16:04:44.773Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:04:44.773Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:04:44.777Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:04:47.251Z] Authorizing...
+
+[2025-02-17T16:04:47.251Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:04:47.251Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:04:47.256Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:04:48.770Z] Authorizing...
+
+[2025-02-17T16:04:48.771Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:04:48.771Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:04:48.775Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:04:54.824Z] Authorizing...
+
+[2025-02-17T16:04:54.828Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:05:14.455Z] Authorizing...
+
+[2025-02-17T16:05:14.456Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:05:14.456Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:05:14.460Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:05:16.283Z] Authorizing...
+
+[2025-02-17T16:05:16.287Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:05:18.536Z] Authorizing...
+
+[2025-02-17T16:05:18.537Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:05:18.537Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:05:18.543Z] Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.
+
+[2025-02-17T16:05:29.532Z] Syncs started during this session may still be active when this command terminates. You can run garden sync stop '*' to stop all code syncs. Hint: To stop code syncing when exiting garden dev, use Ctrl-D or the exit command.
+→ Run garden util hide-warning dev-syncs-active to disable this message.

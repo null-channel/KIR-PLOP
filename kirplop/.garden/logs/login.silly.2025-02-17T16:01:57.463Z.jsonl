@@ -1,0 +1,4 @@
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:01:57.485Z","level":"debug"}
+{"msg":"Logging in to https://app.garden.io...","section":"","timestamp":"2025-02-17T16:01:57.486Z","level":"info"}
+{"msg":"Redirecting to https://app.garden.io login page...","section":"","timestamp":"2025-02-17T16:01:57.487Z","level":"debug"}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2025-02-17T16:02:19.056Z","level":"debug"}

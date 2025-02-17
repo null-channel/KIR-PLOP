@@ -1,0 +1,84 @@
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:02:30.152Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:02:30.154Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:02:30.161Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:02:30.162Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:02:30.162Z","level":"debug"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:02:30.162Z","level":"debug"}
+{"msg":"Unable to load Garden project found at /home/marek/code/job_hunting: Error: Path /home/marek/code/job_hunting is not in a git repository root. Garden must be run from within a git repo. Please run `git init` if you're starting a new project and repository, or move the project to an existing repository, and try again.","section":"","timestamp":"2025-02-17T16:02:30.170Z","level":"warn"}
+{"msg":"Garden server has successfully started at port 9777","section":"","timestamp":"2025-02-17T16:02:30.174Z","level":"info"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:03:26.258Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:03:26.258Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:03:26.264Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:03:26.264Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:03:26.265Z","level":"debug"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:03:26.265Z","level":"debug"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:03:30.351Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:03:30.351Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:03:30.357Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:03:30.357Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:03:30.357Z","level":"debug"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:03:30.357Z","level":"debug"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:03:40.735Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:03:40.735Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:03:40.741Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:03:40.741Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:03:40.741Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:03:40.741Z","level":"info"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:04:16.789Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:04:16.789Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:16.795Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:04:16.795Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:16.795Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:16.795Z","level":"info"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:04:42.125Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:04:42.125Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:42.131Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:04:42.131Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:42.131Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:42.131Z","level":"info"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:04:44.767Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:04:44.767Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:44.772Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:04:44.773Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:44.773Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:44.773Z","level":"info"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:04:47.244Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:04:47.244Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:47.251Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:04:47.251Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:47.251Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:47.251Z","level":"info"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:04:48.764Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:04:48.764Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:48.770Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:04:48.770Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:48.770Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:48.771Z","level":"info"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:04:54.818Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:04:54.818Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:54.824Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:04:54.824Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:54.824Z","level":"debug"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:04:54.824Z","level":"debug"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:05:14.449Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:05:14.449Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:05:14.455Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:05:14.455Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:05:14.456Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:05:14.456Z","level":"info"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:05:16.277Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:05:16.277Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:05:16.283Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:05:16.284Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:05:16.284Z","level":"debug"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:05:16.284Z","level":"debug"}
+{"msg":"Initializing Garden context for ephemeral (none found for key)","section":"","timestamp":"2025-02-17T16:05:18.529Z","level":"verbose"}
+{"msg":"Instance key: env=ephemeral|root=/home/marek/code/job_hunting","section":"","timestamp":"2025-02-17T16:05:18.529Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T16:05:18.536Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T16:05:18.537Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T16:05:18.537Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T16:05:18.537Z","level":"info"}
+{"msg":"Syncs started during this session may still be active when this command terminates. You can run garden sync stop '*' to stop all code syncs. Hint: To stop code syncing when exiting garden dev, use Ctrl-D or the exit command.\n→ Run garden util hide-warning dev-syncs-active to disable this message.","section":"","timestamp":"2025-02-17T16:05:29.532Z","level":"warn"}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2025-02-17T16:05:29.533Z","level":"debug"}
+{"msg":"Watcher: Initializing","section":"","timestamp":"2025-02-17T16:05:29.583Z","level":"debug"}
+{"msg":"Watcher: Starting FSWatcher","section":"","timestamp":"2025-02-17T16:05:29.583Z","level":"debug"}
