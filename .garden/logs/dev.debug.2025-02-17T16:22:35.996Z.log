@@ -1,0 +1,164 @@
+
+[2025-02-17T16:22:36.039Z] [verbose] Initializing Garden context for ephemeral (none found for key)
+
+[2025-02-17T16:22:36.040Z] [debug] Instance key: env=ephemeral
+
+[2025-02-17T16:22:36.050Z] Authorizing...
+
+[2025-02-17T16:22:36.051Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T16:22:36.051Z] [debug] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:22:36.051Z] [debug] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:22:36.059Z] [debug] Garden context updated for key env=ephemeral
+
+[2025-02-17T16:22:36.060Z] [verbose] Scanning project root at /home/marek/code/job_hunting
+  → Includes: **/*garden.y*ml
+  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2025-02-17T16:22:36.098Z] [verbose] Found 1 files in project root /home/marek/code/job_hunting (took 0.04 sec)
+
+[2025-02-17T16:22:36.100Z] [debug] Scanned and found 0 actions, 0 workflows and 0 modules
+
+[2025-02-17T16:22:36.101Z] [debug] Watcher: Initializing
+
+[2025-02-17T16:22:36.101Z] [debug] Watcher: Starting FSWatcher
+
+[2025-02-17T16:22:36.101Z] [debug] Watcher: Add 1 paths
+
+[2025-02-17T16:22:36.103Z] [debug] Watcher: Ready
+
+[2025-02-17T16:22:36.108Z] Garden server has successfully started at port 9777
+
+
+[2025-02-17T16:22:36.127Z] [debug] Cleaning up 1 paths from watcher
+
+[2025-02-17T16:22:41.553Z] [verbose] Initializing Garden context for ephemeral (none found for key)
+
+[2025-02-17T16:22:41.554Z] [debug] Instance key: env=ephemeral
+
+[2025-02-17T16:22:41.561Z] Authorizing...
+
+[2025-02-17T16:22:41.561Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T16:22:41.562Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:22:41.562Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:22:41.567Z] [debug] Garden context updated for key env=ephemeral
+
+[2025-02-17T16:22:41.567Z] [verbose] Scanning project root at /home/marek/code/job_hunting
+  → Includes: **/*garden.y*ml
+  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2025-02-17T16:22:41.600Z] [verbose] Found 1 files in project root /home/marek/code/job_hunting (took 0.03 sec)
+
+[2025-02-17T16:22:41.602Z] [debug] Scanned and found 0 actions, 0 workflows and 0 modules
+
+[2025-02-17T16:22:41.602Z] [debug] Watcher: Add 1 paths
+
+[2025-02-17T16:22:41.634Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ help ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+Popular commands:
+
+  build              Perform your Builds.                                                            
+  deploy             Deploy actions to your environment.                                             
+  test               Run all or specified Test actions in the project.                               
+  run                Perform one or more Run actions                                                 
+  up                 Spin up your stack with the dev console and streaming logs.                     
+  logs               Retrieves the most recent logs for the specified Deploy(s).                     
+  sync start         Start any configured syncs to the given Deploy action(s).                       
+  sync status        Get sync statuses.                                                              
+  sync stop          Stop any active syncs to the given Deploy action(s).                            
+  exec               Executes a command (such as an interactive shell) in a running service.         
+  login              Log in to Garden Cloud.                                                         
+  logout             Log out of Garden Cloud.                                                        
+  quit               Exit the dev console.                                                           
+  reload             Reload the project and action/module configuration.                             
+  hide               Stop monitoring for logs for all or specified Deploy actions                    
+  log-level          Change the max log level of (future) printed logs in the console.               
+  cleanup deploy     Cleans up running deployments (or services if using modules).                   
+  cleanup namespace  Deletes a running namespace.                                                    
+  community          Join our community Discord to chat with us!                                     
+  create project     Create a new Garden project.                                                    
+  options            Print global options.                                                           
+  publish            Build and publish artifacts (e.g. container images) to a remote registry.       
+  self-update        Update the Garden CLI.                                                          
+  validate           Check your garden configuration for errors.                                     
+  workflow           Run a Workflow.                                                                 
+
+Other commands:
+
+  cloud groups list      List groups defined in Garden Cloud.                                        
+  cloud secrets create   Create secrets in Garden Cloud.                                             
+  cloud secrets delete   Delete secrets from Garden Cloud.                                           
+  cloud secrets list     List secrets defined in Garden Cloud.                                       
+  cloud secrets update   Update secrets in Garden Cloud                                              
+  cloud users create     Create users in Garden Cloud.                                               
+  cloud users delete     Delete users from Garden Cloud.                                             
+  cloud users list       List users defined in Garden Cloud.                                         
+  get actions            Outputs all or specified actions.                                           
+  get builds             Lists the build actions defined in your project.                            
+  get config             Outputs the full configuration for this project and environment.            
+  get debug-info         Outputs the status of your environment for debug purposes.                  
+  get deploys            Lists the deploy actions defined in your project.                           
+  get files              List all files from all or specified actions.                               
+  get graph              Outputs the dependency relationships across the project.                    
+  get linked-repos       Outputs a list of all linked remote sources, actions and modules for this   
+                         project.                                                                    
+  get modules            Outputs all or specified modules.                                           
+  get outputs            Resolves and returns the outputs of the project.                            
+  get run-result         Outputs the latest result of a run (or task, if using modules).             
+  get runs               Lists the run actions defined in your project.                              
+  get status             Outputs the full status of your project/environment and all actions.        
+  get test-result        Outputs the latest execution result of a provided test.                     
+  get tests              Lists the test actions defined in your project.                             
+  get workflows          Lists the workflows defined in your project.                                
+  link action            Link a remote action to a local directory.                                  
+  link module            Link a remote module to a local directory.                                  
+  link source            Link a remote source to a local directory.                                  
+  plugins                Plugin-specific commands.                                                   
+  sync restart           Restart any active syncs to the given Deploy action(s).                     
+  unlink action          Unlink a previously linked remote action from its local directory.          
+  unlink module          Unlink a previously linked remote module from its local directory.          
+  unlink source          Unlink a previously linked remote source from its local directory.          
+  update-remote actions  Update remote actions.                                                      
+  update-remote all      Update all remote sources, actions and modules.                             
+  update-remote modules  Update remote modules.                                                      
+  update-remote sources  Update remote sources.                                                      
+  util fetch-tools       Pre-fetch plugin tools.                                                     
+  util hide-warning      Hide a specific warning message.                                            
+  util mutagen           Run any Mutagen CLI command in the context of the current project.          
+  util profile-project   Renders a high-level summary of actions and modules in your project.        
+  version                Shows the current garden version.                                           
+
+Keys:
+
+  [tab]: auto-complete  [up/down]: command history  [ctrl-u]: clear line  [ctrl-d]: quit
+
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+
+[2025-02-17T16:22:41.635Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T16:29:39.869Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2025-02-17T16:35:44.366Z] [verbose] Initializing Garden context for local (none found for key)
+
+[2025-02-17T16:35:44.366Z] [debug] Instance key: env=local
+
+[2025-02-17T16:35:44.375Z] Authorizing...
+
+[2025-02-17T16:35:44.376Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T16:35:44.376Z] [debug] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:35:44.376Z] [debug] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:35:44.381Z] [debug] Garden context updated for key env=local
+
+[2025-02-17T16:35:44.382Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T16:35:44.383Z] [debug] Done flushing all events and log entries.

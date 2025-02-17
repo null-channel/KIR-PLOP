@@ -1,0 +1,679 @@
+{"msg":"Initializing Garden context for local (none found for key)","section":"","timestamp":"2025-02-17T17:18:54.988Z","level":"verbose"}
+{"msg":"Instance key: env=local","section":"","timestamp":"2025-02-17T17:18:54.990Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T17:18:55.000Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T17:18:55.001Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T17:18:55.001Z","level":"debug"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T17:18:55.001Z","level":"debug"}
+{"msg":"Garden context updated for key env=local","section":"","timestamp":"2025-02-17T17:18:55.008Z","level":"debug"}
+{"msg":"Scanning project root at /home/marek/code/job_hunting\n  → Includes: **/*garden.y*ml\n  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**","section":"git                       →","timestamp":"2025-02-17T17:18:55.009Z","level":"verbose"}
+{"msg":"Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)","section":"git                       →","timestamp":"2025-02-17T17:18:55.045Z","level":"verbose"}
+{"msg":"Scanned and found 3 actions, 0 workflows and 0 modules","section":"","timestamp":"2025-02-17T17:18:55.049Z","level":"debug"}
+{"msg":"Watcher: Initializing","section":"","timestamp":"2025-02-17T17:18:55.049Z","level":"debug"}
+{"msg":"Watcher: Starting FSWatcher","section":"","timestamp":"2025-02-17T17:18:55.049Z","level":"debug"}
+{"msg":"Watcher: Add 2 paths","section":"","timestamp":"2025-02-17T17:18:55.050Z","level":"debug"}
+{"msg":"Watcher: Ready","section":"","timestamp":"2025-02-17T17:18:55.052Z","level":"debug"}
+{"msg":"Garden server has successfully started at port 9777","section":"","timestamp":"2025-02-17T17:18:55.057Z","level":"info"}
+{"msg":"Cleaning up 2 paths from watcher","section":"","timestamp":"2025-02-17T17:18:55.076Z","level":"debug"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running sync start command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:19:02.704Z","level":"info"}
+{"msg":"Initializing Garden context for local (none found for key)","section":"","timestamp":"2025-02-17T17:19:02.717Z","level":"verbose"}
+{"msg":"Instance key: env=local","section":"","timestamp":"2025-02-17T17:19:02.717Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T17:19:02.725Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T17:19:02.726Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T17:19:02.726Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T17:19:02.726Z","level":"info"}
+{"msg":"Garden context updated for key env=local","section":"","timestamp":"2025-02-17T17:19:02.730Z","level":"debug"}
+{"msg":"Scanning project root at /home/marek/code/job_hunting\n  → Includes: **/*garden.y*ml\n  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**","section":"git                       →","timestamp":"2025-02-17T17:19:02.731Z","level":"verbose"}
+{"msg":"Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)","section":"git                       →","timestamp":"2025-02-17T17:19:02.766Z","level":"verbose"}
+{"msg":"Scanned and found 3 actions, 0 workflows and 0 modules","section":"","timestamp":"2025-02-17T17:19:02.768Z","level":"debug"}
+{"msg":"Watcher: Add 2 paths","section":"","timestamp":"2025-02-17T17:19:02.769Z","level":"debug"}
+{"msg":"Resolving providers...","section":"providers                 →","timestamp":"2025-02-17T17:19:02.790Z","level":"info"}
+{"msg":"Configuring provider...","section":"exec                      →","timestamp":"2025-02-17T17:19:02.902Z","level":"info"}
+{"msg":"Configuring provider...","section":"container                 →","timestamp":"2025-02-17T17:19:02.903Z","level":"debug"}
+{"msg":"Configuring provider...","section":"templated                 →","timestamp":"2025-02-17T17:19:02.903Z","level":"debug"}
+{"msg":"Provider configured","section":"exec                      →","timestamp":"2025-02-17T17:19:02.907Z","level":"info"}
+{"msg":"Provider configured","section":"container                 →","timestamp":"2025-02-17T17:19:02.907Z","level":"debug"}
+{"msg":"Provider configured","section":"templated                 →","timestamp":"2025-02-17T17:19:02.908Z","level":"debug"}
+{"msg":"Provider status cached","section":"exec                      →","timestamp":"2025-02-17T17:19:02.911Z","level":"info"}
+{"msg":"resolve provider exec is ready.","section":"providers                 →","timestamp":"2025-02-17T17:19:02.911Z","level":"verbose"}
+{"msg":"Provider status cached","section":"container                 →","timestamp":"2025-02-17T17:19:02.912Z","level":"debug"}
+{"msg":"resolve provider container is ready.","section":"providers                 →","timestamp":"2025-02-17T17:19:02.912Z","level":"verbose"}
+{"msg":"Configuring provider...","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:02.913Z","level":"info"}
+{"msg":"Provider status cached","section":"templated                 →","timestamp":"2025-02-17T17:19:02.914Z","level":"debug"}
+{"msg":"resolve provider templated is ready.","section":"providers                 →","timestamp":"2025-02-17T17:19:02.914Z","level":"verbose"}
+{"msg":"Using current context: kind-kind","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:02.942Z","level":"info"}
+{"msg":"Provider configured","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:02.943Z","level":"info"}
+{"msg":"Preparing environment","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:02.944Z","level":"info"}
+{"msg":"Found kind with the following version details kind v0.22.0 go1.22.1 linux/amd64","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:02.947Z","level":"debug"}
+{"msg":"Kubernetes: Getting API resource info for group apps/v1","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:02.977Z","level":"debug"}
+{"msg":"Creating namespace kir-flop-kir-flop-marek","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:03.000Z","level":"verbose"}
+{"msg":"Creating namespace garden-system","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:03.023Z","level":"verbose"}
+{"msg":"Status of ingress controller: missing","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:03.040Z","level":"debug"}
+{"msg":"Installing ingress controller for kind cluster","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:03.040Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"providers                 →","timestamp":"2025-02-17T17:19:03.480Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"","timestamp":"2025-02-17T17:19:03.481Z","level":"verbose"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:05.506Z","level":"debug"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"","timestamp":"2025-02-17T17:19:05.506Z","level":"verbose"}
+{"msg":"Deployment/ingress-nginx-controller: MountVolume.SetUp failed for volume \"webhook-cert\" : secret \"ingress-nginx-admission\" not found","section":"providers                 →","timestamp":"2025-02-17T17:19:05.507Z","level":"warn"}
+{"msg":"Deployment/ingress-nginx-controller: MountVolume.SetUp failed for volume \"webhook-cert\" : secret \"ingress-nginx-admission\" not found","section":"","timestamp":"2025-02-17T17:19:05.507Z","level":"verbose"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:08.030Z","level":"debug"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"","timestamp":"2025-02-17T17:19:08.031Z","level":"verbose"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:11.053Z","level":"debug"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"","timestamp":"2025-02-17T17:19:11.053Z","level":"verbose"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:14.574Z","level":"debug"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"","timestamp":"2025-02-17T17:19:14.574Z","level":"verbose"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:18.598Z","level":"debug"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"","timestamp":"2025-02-17T17:19:18.598Z","level":"verbose"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:23.122Z","level":"debug"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"","timestamp":"2025-02-17T17:19:23.122Z","level":"verbose"}
+{"msg":"Deployment/ingress-nginx-controller: Pulling image \"registry.k8s.io/ingress-nginx/controller:v1.12.0@sha256:e6b8de175acda6ca913891f0f727bca4527e797d52688cbe9fec9040d6f6b6fa\"","section":"providers                 →","timestamp":"2025-02-17T17:19:23.122Z","level":"warn"}
+{"msg":"Deployment/ingress-nginx-controller: Pulling image \"registry.k8s.io/ingress-nginx/controller:v1.12.0@sha256:e6b8de175acda6ca913891f0f727bca4527e797d52688cbe9fec9040d6f6b6fa\"","section":"","timestamp":"2025-02-17T17:19:23.122Z","level":"verbose"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:28.146Z","level":"debug"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"","timestamp":"2025-02-17T17:19:28.146Z","level":"verbose"}
+{"msg":"Deployment/ingress-nginx-controller: Started container controller","section":"providers                 →","timestamp":"2025-02-17T17:19:28.146Z","level":"warn"}
+{"msg":"Deployment/ingress-nginx-controller: Started container controller","section":"","timestamp":"2025-02-17T17:19:28.147Z","level":"verbose"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:33.679Z","level":"debug"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"deploying\"","section":"","timestamp":"2025-02-17T17:19:33.679Z","level":"verbose"}
+{"msg":"Deployment/ingress-nginx-controller: RELOAD NGINX reload triggered due to a change in configuration","section":"providers                 →","timestamp":"2025-02-17T17:19:33.679Z","level":"warn"}
+{"msg":"Deployment/ingress-nginx-controller: RELOAD NGINX reload triggered due to a change in configuration","section":"","timestamp":"2025-02-17T17:19:33.679Z","level":"verbose"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"ready\"","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:39.685Z","level":"debug"}
+{"msg":"Status of Deployment ingress-nginx-controller is \"ready\"","section":"","timestamp":"2025-02-17T17:19:39.685Z","level":"verbose"}
+{"msg":"Resources ready","section":"","timestamp":"2025-02-17T17:19:39.685Z","level":"verbose"}
+{"msg":"Resources ready","section":"providers                 →","timestamp":"2025-02-17T17:19:39.685Z","level":"info"}
+{"msg":"Provider ready","section":"local-kubernetes          →","timestamp":"2025-02-17T17:19:39.685Z","level":"info"}
+{"msg":"resolve provider local-kubernetes is ready.","section":"providers                 →","timestamp":"2025-02-17T17:19:39.686Z","level":"verbose"}
+{"msg":"Finished resolving providers (took 36.9 sec)","section":"providers                 →","timestamp":"2025-02-17T17:19:39.687Z","level":"info"}
+{"msg":"Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.","section":"providers                 →","timestamp":"2025-02-17T17:19:39.687Z","level":"info"}
+{"msg":"Resolving actions and modules...","section":"graph                     →","timestamp":"2025-02-17T17:19:39.687Z","level":"info"}
+{"msg":"Building graph from 3 action configs and 0 group configs","section":"graph                     →","timestamp":"2025-02-17T17:19:39.688Z","level":"debug"}
+{"msg":"Retained 3 configs","section":"graph                     →","timestamp":"2025-02-17T17:19:39.689Z","level":"debug"}
+{"msg":"Got 3 action configs without action filter","section":"graph                     →","timestamp":"2025-02-17T17:19:39.703Z","level":"debug"}
+{"msg":"Finding minimal roots for 1 paths","section":"graph                     →","timestamp":"2025-02-17T17:19:39.703Z","level":"debug"}
+{"msg":"Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop\n  → Includes: (none)\n  → Excludes: (none)","section":"git                       →","timestamp":"2025-02-17T17:19:39.707Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen","section":"git                       →","timestamp":"2025-02-17T17:19:39.722Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize","section":"git                       →","timestamp":"2025-02-17T17:19:39.723Z","level":"verbose"}
+{"msg":"Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.09 sec)","section":"git                       →","timestamp":"2025-02-17T17:19:39.792Z","level":"verbose"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:19:39.793Z","level":"debug"}
+{"msg":"Include globs: **/*","section":"graph                     →","timestamp":"2025-02-17T17:19:39.793Z","level":"debug"}
+{"msg":"No exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:19:39.793Z","level":"debug"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching","section":"graph                     →","timestamp":"2025-02-17T17:19:39.793Z","level":"debug"}
+{"msg":"Finished resolving graph (took 0.1 sec)","section":"graph                     →","timestamp":"2025-02-17T17:19:39.795Z","level":"info"}
+{"msg":"Deploy type=kubernetes name=kirop-crd-manifests does not support syncing.","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:19:39.796Z","level":"debug"}
+{"msg":"Aborting because upstream dependency failed.","metadata":{"task":{"type":"resolve-action","key":"resolve-action.deploy.kirop","status":"error","uid":"5ea8bd41-ed53-11ef-9c4c-473c0febf5bc","inputVersion":null}},"section":"deploy.kirop              →","timestamp":"2025-02-17T17:19:39.813Z","level":"info"}
+{"msg":"Aborting because upstream dependency failed.","metadata":{"task":{"type":"deploy","key":"deploy.kirop","status":"error","uid":"5ea8bd40-ed53-11ef-9c4c-473c0febf5bc","inputVersion":null}},"section":"deploy.kirop              →","timestamp":"2025-02-17T17:19:39.813Z","level":"info"}
+{"msg":"Failed processing resolve Deploy type=kubernetes name=kirop-crd-manifests (took 0.02 sec). This is what happened:\n\n────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\nError validating spec for Deploy type=kubernetes name=kirop-crd-manifests (kirop):\n\n/home/marek/code/job_hunting/kirop/garden.yaml:11\n...\n10  |     paths:\n11  |       - ./config/crd/\n------------^\nkey \"paths\" is not allowed at path spec.kustomize[paths]. Available keys: files, kustomize, manifests, patchResources, namespace, portForwards, timeout, applyArgs, waitForJobs, defaultTarget, sync, localMode)\n────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:19:39.814Z","level":"error","errorDetail":"Error: Error validating spec for \u001b[36mDeploy\u001b[39m type=\u001b[36m\u001b[1mkubernetes\u001b[22m\u001b[39m name=\u001b[36m\u001b[1mkirop-crd-manifests\u001b[22m\u001b[39m (kirop):\n\n\u001b[90m/home/marek/code/job_hunting/kirop/garden.yaml:11\u001b[39m\n\u001b[37m...\u001b[39m\n\u001b[37m\u001b[39m\u001b[37m10  | \u001b[39m\u001b[36m    paths:\u001b[39m\n\u001b[37m11  | \u001b[39m\u001b[36m      - ./config/crd/\u001b[39m\n\u001b[31m------------\u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n\u001b[31m\u001b[1mkey \"paths\" is not allowed at path \u001b[1m\u001b[4mspec.kustomize[paths]\u001b[24m\u001b[22m\u001b[1m\u001b[22m\u001b[39m. Available keys: files, kustomize, manifests, patchResources, namespace, portForwards, timeout, applyArgs, waitForJobs, defaultTarget, sync, localMode)\n    at validateSchema (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:290060:11)\n    at validateWithPath (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:290013:12)\n    at ResolveActionTask.validateSpec (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:449554:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:449220:30\n    at async ResolveActionTask.process (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:449497:16)\n    at async file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:449220:30\n    at async ProcessTaskNode.execute (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:888289:35)\n    at async GraphSolver.processNode (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:888689:35)\nError type: configuration"}
+{"msg":"Deploy type=kubernetes name=kirop is not deployed, cannot start sync.","section":"deploy.kirop              →","timestamp":"2025-02-17T17:19:39.815Z","level":"warn"}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2025-02-17T17:19:39.816Z","level":"debug"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:19:39.817Z","level":"error"}
+{"msg":"resolve Build type=container name=kirop is ready.","section":"build.kirop               →","timestamp":"2025-02-17T17:19:39.819Z","level":"debug"}
+{"msg":"Config change detected. Project will be reloaded when the next command is run.","section":"garden                    →","timestamp":"2025-02-17T17:22:04.492Z","level":"info"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running sync start command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:22:21.063Z","level":"info"}
+{"msg":"Initializing Garden context for local (flagged for reload)","section":"","timestamp":"2025-02-17T17:22:21.076Z","level":"verbose"}
+{"msg":"Instance key: env=local","section":"","timestamp":"2025-02-17T17:22:21.076Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T17:22:21.084Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T17:22:21.085Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T17:22:21.085Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T17:22:21.085Z","level":"info"}
+{"msg":"Garden context updated for key env=local","section":"","timestamp":"2025-02-17T17:22:21.089Z","level":"debug"}
+{"msg":"Scanning project root at /home/marek/code/job_hunting\n  → Includes: **/*garden.y*ml\n  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**","section":"git                       →","timestamp":"2025-02-17T17:22:21.090Z","level":"verbose"}
+{"msg":"Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)","section":"git                       →","timestamp":"2025-02-17T17:22:21.128Z","level":"verbose"}
+{"msg":"Scanned and found 3 actions, 0 workflows and 0 modules","section":"","timestamp":"2025-02-17T17:22:21.131Z","level":"debug"}
+{"msg":"Watcher: Add 2 paths","section":"","timestamp":"2025-02-17T17:22:21.131Z","level":"debug"}
+{"msg":"Resolving providers...","section":"providers                 →","timestamp":"2025-02-17T17:22:21.131Z","level":"info"}
+{"msg":"Configuring provider...","section":"exec                      →","timestamp":"2025-02-17T17:22:21.166Z","level":"info"}
+{"msg":"Configuring provider...","section":"container                 →","timestamp":"2025-02-17T17:22:21.166Z","level":"debug"}
+{"msg":"Configuring provider...","section":"templated                 →","timestamp":"2025-02-17T17:22:21.167Z","level":"debug"}
+{"msg":"Provider configured","section":"exec                      →","timestamp":"2025-02-17T17:22:21.169Z","level":"info"}
+{"msg":"Provider configured","section":"container                 →","timestamp":"2025-02-17T17:22:21.169Z","level":"debug"}
+{"msg":"Provider configured","section":"templated                 →","timestamp":"2025-02-17T17:22:21.169Z","level":"debug"}
+{"msg":"Provider status cached","section":"exec                      →","timestamp":"2025-02-17T17:22:21.171Z","level":"info"}
+{"msg":"resolve provider exec is ready.","section":"providers                 →","timestamp":"2025-02-17T17:22:21.171Z","level":"verbose"}
+{"msg":"Provider status cached","section":"container                 →","timestamp":"2025-02-17T17:22:21.172Z","level":"debug"}
+{"msg":"resolve provider container is ready.","section":"providers                 →","timestamp":"2025-02-17T17:22:21.172Z","level":"verbose"}
+{"msg":"Configuring provider...","section":"local-kubernetes          →","timestamp":"2025-02-17T17:22:21.172Z","level":"info"}
+{"msg":"Provider status cached","section":"templated                 →","timestamp":"2025-02-17T17:22:21.173Z","level":"debug"}
+{"msg":"resolve provider templated is ready.","section":"providers                 →","timestamp":"2025-02-17T17:22:21.173Z","level":"verbose"}
+{"msg":"Using current context: kind-kind","section":"local-kubernetes          →","timestamp":"2025-02-17T17:22:21.200Z","level":"info"}
+{"msg":"Provider configured","section":"local-kubernetes          →","timestamp":"2025-02-17T17:22:21.201Z","level":"info"}
+{"msg":"Preparing environment","section":"local-kubernetes          →","timestamp":"2025-02-17T17:22:21.201Z","level":"info"}
+{"msg":"Found kind with the following version details kind v0.22.0 go1.22.1 linux/amd64","section":"local-kubernetes          →","timestamp":"2025-02-17T17:22:21.206Z","level":"debug"}
+{"msg":"Status of ingress controller: ready","section":"local-kubernetes          →","timestamp":"2025-02-17T17:22:21.225Z","level":"debug"}
+{"msg":"Provider ready","section":"local-kubernetes          →","timestamp":"2025-02-17T17:22:21.225Z","level":"info"}
+{"msg":"resolve provider local-kubernetes is ready.","section":"providers                 →","timestamp":"2025-02-17T17:22:21.226Z","level":"verbose"}
+{"msg":"Finished resolving providers (took 0.1 sec)","section":"providers                 →","timestamp":"2025-02-17T17:22:21.226Z","level":"info"}
+{"msg":"Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.","section":"providers                 →","timestamp":"2025-02-17T17:22:21.226Z","level":"info"}
+{"msg":"Resolving actions and modules...","section":"graph                     →","timestamp":"2025-02-17T17:22:21.227Z","level":"info"}
+{"msg":"Building graph from 3 action configs and 0 group configs","section":"graph                     →","timestamp":"2025-02-17T17:22:21.227Z","level":"debug"}
+{"msg":"Retained 3 configs","section":"graph                     →","timestamp":"2025-02-17T17:22:21.227Z","level":"debug"}
+{"msg":"Got 3 action configs without action filter","section":"graph                     →","timestamp":"2025-02-17T17:22:21.230Z","level":"debug"}
+{"msg":"Finding minimal roots for 1 paths","section":"graph                     →","timestamp":"2025-02-17T17:22:21.230Z","level":"debug"}
+{"msg":"Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop\n  → Includes: (none)\n  → Excludes: (none)","section":"git                       →","timestamp":"2025-02-17T17:22:21.234Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen","section":"git                       →","timestamp":"2025-02-17T17:22:21.248Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize","section":"git                       →","timestamp":"2025-02-17T17:22:21.248Z","level":"verbose"}
+{"msg":"Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.06 sec)","section":"git                       →","timestamp":"2025-02-17T17:22:21.289Z","level":"verbose"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:22:21.290Z","level":"debug"}
+{"msg":"Include globs: **/*","section":"graph                     →","timestamp":"2025-02-17T17:22:21.290Z","level":"debug"}
+{"msg":"No exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:22:21.290Z","level":"debug"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching","section":"graph                     →","timestamp":"2025-02-17T17:22:21.290Z","level":"debug"}
+{"msg":"Finished resolving graph (took 0.1 sec)","section":"graph                     →","timestamp":"2025-02-17T17:22:21.291Z","level":"info"}
+{"msg":"Deploy type=kubernetes name=kirop-crd-manifests does not support syncing.","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:22:21.291Z","level":"debug"}
+{"msg":"resolve Build type=container name=kirop is ready.","section":"build.kirop               →","timestamp":"2025-02-17T17:22:21.300Z","level":"debug"}
+{"msg":"resolve Deploy type=kubernetes name=kirop-crd-manifests is ready.","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:22:21.300Z","level":"debug"}
+{"msg":"resolve Deploy type=kubernetes name=kirop is ready.","section":"deploy.kirop              →","timestamp":"2025-02-17T17:22:21.303Z","level":"debug"}
+{"msg":"Kubernetes: Getting API resource info for group v1","section":"deploy.kirop              →","timestamp":"2025-02-17T17:22:21.315Z","level":"debug"}
+{"msg":"Deploy type=kubernetes name=kirop is not deployed, cannot start sync.","section":"deploy.kirop              →","timestamp":"2025-02-17T17:22:21.323Z","level":"warn"}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2025-02-17T17:22:21.324Z","level":"debug"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:22:21.324Z","level":"error"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running build command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:27:09.941Z","level":"info"}
+{"msg":"Resolving actions and modules...","section":"graph                     →","timestamp":"2025-02-17T17:27:09.958Z","level":"info"}
+{"msg":"Building graph from 3 action configs and 0 group configs","section":"graph                     →","timestamp":"2025-02-17T17:27:09.983Z","level":"debug"}
+{"msg":"Retained 3 configs","section":"graph                     →","timestamp":"2025-02-17T17:27:09.983Z","level":"debug"}
+{"msg":"Got 3 action configs without action filter","section":"graph                     →","timestamp":"2025-02-17T17:27:09.986Z","level":"debug"}
+{"msg":"Finding minimal roots for 1 paths","section":"graph                     →","timestamp":"2025-02-17T17:27:09.986Z","level":"debug"}
+{"msg":"Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop\n  → Includes: (none)\n  → Excludes: (none)","section":"git                       →","timestamp":"2025-02-17T17:27:09.987Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen","section":"git                       →","timestamp":"2025-02-17T17:27:10.001Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize","section":"git                       →","timestamp":"2025-02-17T17:27:10.001Z","level":"verbose"}
+{"msg":"Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.05 sec)","section":"git                       →","timestamp":"2025-02-17T17:27:10.036Z","level":"verbose"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:27:10.037Z","level":"debug"}
+{"msg":"Include globs: **/*","section":"graph                     →","timestamp":"2025-02-17T17:27:10.037Z","level":"debug"}
+{"msg":"No exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:27:10.037Z","level":"debug"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching","section":"graph                     →","timestamp":"2025-02-17T17:27:10.037Z","level":"debug"}
+{"msg":"Finished resolving graph (took 0.1 sec)","section":"graph                     →","timestamp":"2025-02-17T17:27:10.038Z","level":"info"}
+{"msg":"resolve Build type=container name=kirop is ready.","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.041Z","level":"debug"}
+{"msg":"Getting status for Build kirop (type container) at version v-e657f6b9e8...","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.042Z","level":"info"}
+{"msg":"Checking if image kirop:v-36733f3f3b has been loaded into kind cluster","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.043Z","level":"debug"}
+{"msg":"Image kirop:v-36733f3f3b is not in kind cluster","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.280Z","level":"debug"}
+{"msg":"Status is not ready, kirop will be built","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.281Z","level":"info"}
+{"msg":"Building kirop (type container) at version v-e657f6b9e8...","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.282Z","level":"info"}
+{"msg":"Syncing sources (57 files)...","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.283Z","level":"verbose"}
+{"msg":"Syncing 57 files from kirop to .garden/build/kirop (and removing any extraneous files)","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.285Z","level":"debug"}
+{"msg":"Done syncing sources (took 0.3 sec)","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.308Z","level":"verbose"}
+{"msg":"Building kirop:v-36733f3f3b...","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.328Z","level":"info"}
+{"msg":"Fetching docker 27.1.1...","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.329Z","level":"info"}
+{"msg":"Downloading https://download.docker.com/linux/static/stable/x86_64/docker-27.1.1.tgz...","section":"build.kirop               →","timestamp":"2025-02-17T17:27:10.329Z","level":"debug"}
+{"msg":"Done (took 3.5 sec)","section":"build.kirop               →","timestamp":"2025-02-17T17:27:13.841Z","level":"debug"}
+{"msg":"Fetched docker 27.1.1 (took 3.5 sec)","section":"build.kirop               →","timestamp":"2025-02-17T17:27:13.841Z","level":"info"}
+{"msg":"Spawning '/home/marek/.garden/tools/docker/2a4740635b268a11/docker/docker buildx build --build-arg GARDEN_MODULE_VERSION=v-36733f3f3b --build-arg GARDEN_ACTION_VERSION=v-36733f3f3b --tag kirop:v-36733f3f3b --file /home/marek/code/job_hunting/.garden/build/kirop/Dockerfile /home/marek/code/job_hunting/.garden/build/kirop' in /home/marek/code/job_hunting/.garden/build/kirop","section":"build.kirop               →","timestamp":"2025-02-17T17:27:13.841Z","level":"debug"}
+{"msg":"#0 building with \"default\" instance using docker driver","section":"build.kirop               →","timestamp":"2025-02-17T17:27:14.150Z","level":"verbose"}
+{"msg":"#1 [internal] load build definition from Dockerfile","section":"build.kirop               →","timestamp":"2025-02-17T17:27:14.150Z","level":"verbose"}
+{"msg":"#1 transferring dockerfile: 1.30kB done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:14.150Z","level":"verbose"}
+{"msg":"#1 DONE 0.0s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:14.150Z","level":"verbose"}
+{"msg":"#2 [internal] load metadata for docker.io/library/golang:1.23","section":"build.kirop               →","timestamp":"2025-02-17T17:27:14.151Z","level":"verbose"}
+{"msg":"#2 ...","section":"build.kirop               →","timestamp":"2025-02-17T17:27:14.499Z","level":"verbose"}
+{"msg":"#3 [auth] library/golang:pull token for registry-1.docker.io","section":"build.kirop               →","timestamp":"2025-02-17T17:27:14.500Z","level":"verbose"}
+{"msg":"#3 DONE 0.0s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:14.500Z","level":"verbose"}
+{"msg":"#4 [internal] load metadata for gcr.io/distroless/static:nonroot","section":"build.kirop               →","timestamp":"2025-02-17T17:27:14.649Z","level":"verbose"}
+{"msg":"#4 DONE 1.5s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.543Z","level":"verbose"}
+{"msg":"#2 [internal] load metadata for docker.io/library/golang:1.23","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.543Z","level":"verbose"}
+{"msg":"#2 DONE 1.7s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.737Z","level":"verbose"}
+{"msg":"#5 [internal] load .dockerignore","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.840Z","level":"verbose"}
+{"msg":"#5 transferring context: 171B done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.840Z","level":"verbose"}
+{"msg":"#5 DONE 0.0s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.840Z","level":"verbose"}
+{"msg":"#6 [builder 1/9] FROM docker.io/library/golang:1.23@sha256:77a21b3e354c03e9f66b13bc39f4f0db8085c70f8414406af66b29c6d6c4dd85","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.840Z","level":"verbose"}
+{"msg":"#6 resolve docker.io/library/golang:1.23@sha256:77a21b3e354c03e9f66b13bc39f4f0db8085c70f8414406af66b29c6d6c4dd85 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.841Z","level":"verbose"}
+{"msg":"#6 sha256:77a21b3e354c03e9f66b13bc39f4f0db8085c70f8414406af66b29c6d6c4dd85 10.06kB / 10.06kB done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.948Z","level":"verbose"}
+{"msg":"#6 sha256:e36fd3af78f13fb7fd27a16ec62370968ecbe113c1dd026c188162109b34c1a3 2.32kB / 2.32kB done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.948Z","level":"verbose"}
+{"msg":"#6 sha256:9dc5a72b2e895c3a721087870c20d04c72aa64e75a56b82e39caae3dc27c5846 2.80kB / 2.80kB done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.948Z","level":"verbose"}
+{"msg":"#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 0B / 24.06MB 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:15.948Z","level":"verbose"}
+{"msg":"#6 ...","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.048Z","level":"verbose"}
+{"msg":"#7 [internal] load build context","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.049Z","level":"verbose"}
+{"msg":"#7 transferring context: 62.77kB done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.049Z","level":"verbose"}
+{"msg":"#7 DONE 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.049Z","level":"verbose"}
+{"msg":"#6 [builder 1/9] FROM docker.io/library/golang:1.23@sha256:77a21b3e354c03e9f66b13bc39f4f0db8085c70f8414406af66b29c6d6c4dd85","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.049Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 0B / 48.48MB 0.2s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.049Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 0B / 64.39MB 0.2s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.049Z","level":"verbose"}
+{"msg":"#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 3.15MB / 24.06MB 0.8s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.648Z","level":"verbose"}
+{"msg":"#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 6.29MB / 24.06MB 0.9s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.748Z","level":"verbose"}
+{"msg":"#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 10.49MB / 24.06MB 1.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.948Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 6.29MB / 48.48MB 1.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:16.948Z","level":"verbose"}
+{"msg":"#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 13.63MB / 24.06MB 1.2s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.048Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 9.44MB / 48.48MB 1.2s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.048Z","level":"verbose"}
+{"msg":"#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 16.78MB / 24.06MB 1.3s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.148Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 12.58MB / 48.48MB 1.3s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.148Z","level":"verbose"}
+{"msg":"#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 22.02MB / 24.06MB 1.5s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.348Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 17.83MB / 48.48MB 1.5s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.348Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 6.29MB / 64.39MB 1.5s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.348Z","level":"verbose"}
+{"msg":"#6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 24.06MB / 24.06MB 1.6s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.548Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 24.12MB / 48.48MB 1.7s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.548Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 11.53MB / 64.39MB 1.7s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.548Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 0B / 92.33MB 1.7s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.548Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 28.31MB / 48.48MB 1.8s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.648Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 33.55MB / 48.48MB 2.0s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.848Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 19.92MB / 64.39MB 2.0s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:17.849Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 37.75MB / 48.48MB 2.2s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.048Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 24.12MB / 64.39MB 2.2s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.048Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 40.89MB / 48.48MB 2.3s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.148Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 7.34MB / 92.33MB 2.3s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.148Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 48.23MB / 48.48MB 2.6s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.448Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 33.55MB / 64.39MB 2.6s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.448Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 13.63MB / 92.33MB 2.6s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.448Z","level":"verbose"}
+{"msg":"#6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 48.48MB / 48.48MB 2.6s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.617Z","level":"verbose"}
+{"msg":"#6 extracting sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.617Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 0B / 74.05MB 2.7s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.617Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 39.85MB / 64.39MB 2.8s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.723Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 18.87MB / 92.33MB 2.8s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.723Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 45.09MB / 64.39MB 3.0s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:18.940Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 25.17MB / 92.33MB 3.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.041Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 4.19MB / 74.05MB 3.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.042Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 49.28MB / 64.39MB 3.2s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.144Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 54.53MB / 64.39MB 3.4s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.248Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 31.46MB / 92.33MB 3.4s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.248Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 10.49MB / 74.05MB 3.4s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.248Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 58.72MB / 64.39MB 3.6s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.448Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 36.70MB / 92.33MB 3.6s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.448Z","level":"verbose"}
+{"msg":"#6 extracting sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 0.9s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.448Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 15.73MB / 74.05MB 3.6s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.448Z","level":"verbose"}
+{"msg":"#6 extracting sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.579Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 62.91MB / 64.39MB 3.8s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.681Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 20.97MB / 74.05MB 3.8s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.681Z","level":"verbose"}
+{"msg":"#6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 64.39MB / 64.39MB 3.8s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.848Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 47.19MB / 92.33MB 4.0s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.848Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 27.26MB / 74.05MB 4.0s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.848Z","level":"verbose"}
+{"msg":"#6 extracting sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 0.3s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.848Z","level":"verbose"}
+{"msg":"#6 sha256:eb54fd7982a88fa78ada6fd77866de8386d3829004b0f2eca8e9b9b20e44db8b 0B / 126B 4.0s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.848Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 31.46MB / 74.05MB 4.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.963Z","level":"verbose"}
+{"msg":"#6 extracting sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772","section":"build.kirop               →","timestamp":"2025-02-17T17:27:19.963Z","level":"verbose"}
+{"msg":"#6 sha256:eb54fd7982a88fa78ada6fd77866de8386d3829004b0f2eca8e9b9b20e44db8b 126B / 126B 4.1s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.068Z","level":"verbose"}
+{"msg":"#6 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0B / 32B 4.2s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.069Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 54.53MB / 92.33MB 4.3s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.170Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 38.80MB / 74.05MB 4.3s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.170Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 60.82MB / 92.33MB 4.5s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.380Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 45.09MB / 74.05MB 4.5s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.380Z","level":"verbose"}
+{"msg":"#6 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 4.5s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.498Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 66.06MB / 92.33MB 4.7s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.607Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 50.33MB / 74.05MB 4.7s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.607Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 72.35MB / 92.33MB 4.9s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.824Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 55.57MB / 74.05MB 4.9s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.824Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 59.77MB / 74.05MB 5.0s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:20.930Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 77.59MB / 92.33MB 5.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:21.038Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 84.93MB / 92.33MB 5.3s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:21.148Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 69.21MB / 74.05MB 5.3s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:21.148Z","level":"verbose"}
+{"msg":"#6 extracting sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 1.2s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:21.248Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 92.33MB / 92.33MB 5.5s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:21.348Z","level":"verbose"}
+{"msg":"#6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 74.05MB / 74.05MB 5.5s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:21.349Z","level":"verbose"}
+{"msg":"#6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 92.33MB / 92.33MB 5.5s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:21.451Z","level":"verbose"}
+{"msg":"#6 extracting sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b","section":"build.kirop               →","timestamp":"2025-02-17T17:27:21.451Z","level":"verbose"}
+{"msg":"#6 extracting sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 1.4s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:22.951Z","level":"verbose"}
+{"msg":"#6 extracting sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.073Z","level":"verbose"}
+{"msg":"#6 ...","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.628Z","level":"verbose"}
+{"msg":"#8 [stage-1 1/3] FROM gcr.io/distroless/static:nonroot@sha256:6ec5aa99dc335666e79dc64e4a6c8b89c33a543a1967f20d360922a80dd21f02","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 resolve gcr.io/distroless/static:nonroot@sha256:6ec5aa99dc335666e79dc64e4a6c8b89c33a543a1967f20d360922a80dd21f02 0.1s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 sha256:e855cfad87387db4658f58f72e09f243bdb58f0697e0535d371092d8c03dfd82 1.95kB / 1.95kB done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 sha256:6ec5aa99dc335666e79dc64e4a6c8b89c33a543a1967f20d360922a80dd21f02 1.51kB / 1.51kB done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 sha256:78934ebb7677a50757f2e7e65c2807ed8e488ea50d63462520889fa30c4a6b2c 1.50kB / 1.50kB done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 sha256:688513194d7a0f0d77e4a3692748d21c4ccd1af6a5ff9012f18f053ed9573c13 104.24kB / 104.24kB 5.3s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 extracting sha256:688513194d7a0f0d77e4a3692748d21c4ccd1af6a5ff9012f18f053ed9573c13 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 sha256:bfb59b82a9b65e47d485e53b3e815bca3b3e21a095bd0cb88ced9ac0b48062bf 13.36kB / 13.36kB 5.9s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 sha256:efa9d1d5d3a286c60a7261496166fdf31cec2284dafe7eef7cda89eba2f675d6 541.99kB / 541.99kB 6.2s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 sha256:a62778643d563b511190663ef9a77c30d46d282facfdce4f3a7aecc03423c1f3 67B / 67B 5.9s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 extracting sha256:bfb59b82a9b65e47d485e53b3e815bca3b3e21a095bd0cb88ced9ac0b48062bf 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 sha256:7c12895b777bcaa8ccae0605b4de635b68fc32d60fa08f421dc3818bf55ee212 188B / 188B 6.2s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.629Z","level":"verbose"}
+{"msg":"#8 sha256:3214acf345c0cc6bbdb56b698a41ccdefc624a09d6beb0d38b5de0b2303ecaf4 123B / 123B 6.3s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 extracting sha256:efa9d1d5d3a286c60a7261496166fdf31cec2284dafe7eef7cda89eba2f675d6 0.2s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 sha256:0bab15eea81d0fe6ab56ebf5fba14e02c4c1775a7f7436fbddd3505add4e18fa 93B / 93B 6.5s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 sha256:5664b15f108bf9436ce3312090a767300800edbbfd4511aa1a6d64357024d5dd 168B / 168B 6.5s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 sha256:4aa0ea1413d37a58615488592a0b827ea4b2e48fa5a77cf707d0e35f025e613f 385B / 385B 6.6s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 extracting sha256:a62778643d563b511190663ef9a77c30d46d282facfdce4f3a7aecc03423c1f3 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 extracting sha256:7c12895b777bcaa8ccae0605b4de635b68fc32d60fa08f421dc3818bf55ee212 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 sha256:9aee425378d2c16cd44177dc54a274b312897f5860a8e78fdfda555a0d79dd71 130.50kB / 130.50kB 7.3s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 sha256:da7816fa955ea24533c388143c78804c28682eef99b4ee3723b548c70148bba6 321B / 321B 6.8s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 extracting sha256:3214acf345c0cc6bbdb56b698a41ccdefc624a09d6beb0d38b5de0b2303ecaf4 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 extracting sha256:5664b15f108bf9436ce3312090a767300800edbbfd4511aa1a6d64357024d5dd 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 extracting sha256:0bab15eea81d0fe6ab56ebf5fba14e02c4c1775a7f7436fbddd3505add4e18fa 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 extracting sha256:4aa0ea1413d37a58615488592a0b827ea4b2e48fa5a77cf707d0e35f025e613f 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 extracting sha256:da7816fa955ea24533c388143c78804c28682eef99b4ee3723b548c70148bba6 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 extracting sha256:9aee425378d2c16cd44177dc54a274b312897f5860a8e78fdfda555a0d79dd71 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#8 DONE 7.7s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#6 [builder 1/9] FROM docker.io/library/golang:1.23@sha256:77a21b3e354c03e9f66b13bc39f4f0db8085c70f8414406af66b29c6d6c4dd85","section":"build.kirop               →","timestamp":"2025-02-17T17:27:23.630Z","level":"verbose"}
+{"msg":"#6 extracting sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 2.1s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.033Z","level":"verbose"}
+{"msg":"#6 extracting sha256:eb54fd7982a88fa78ada6fd77866de8386d3829004b0f2eca8e9b9b20e44db8b","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.226Z","level":"verbose"}
+{"msg":"#6 extracting sha256:eb54fd7982a88fa78ada6fd77866de8386d3829004b0f2eca8e9b9b20e44db8b 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.469Z","level":"verbose"}
+{"msg":"#6 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.469Z","level":"verbose"}
+{"msg":"#6 DONE 9.8s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.563Z","level":"verbose"}
+{"msg":"#9 [builder 2/9] WORKDIR /workspace","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.712Z","level":"verbose"}
+{"msg":"#9 DONE 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.712Z","level":"verbose"}
+{"msg":"#10 [builder 3/9] COPY go.mod go.mod","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.713Z","level":"verbose"}
+{"msg":"#10 DONE 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.713Z","level":"verbose"}
+{"msg":"#11 [builder 4/9] COPY go.sum go.sum","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.952Z","level":"verbose"}
+{"msg":"#11 DONE 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.952Z","level":"verbose"}
+{"msg":"#12 [builder 5/9] RUN go mod download","section":"build.kirop               →","timestamp":"2025-02-17T17:27:25.952Z","level":"verbose"}
+{"msg":"#12 DONE 15.4s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:41.189Z","level":"verbose"}
+{"msg":"#13 [builder 6/9] COPY cmd/main.go cmd/main.go","section":"build.kirop               →","timestamp":"2025-02-17T17:27:41.376Z","level":"verbose"}
+{"msg":"#13 DONE 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:41.376Z","level":"verbose"}
+{"msg":"#14 [builder 7/9] COPY api/ api/","section":"build.kirop               →","timestamp":"2025-02-17T17:27:41.376Z","level":"verbose"}
+{"msg":"#14 DONE 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:41.376Z","level":"verbose"}
+{"msg":"#15 [builder 8/9] COPY internal/ internal/","section":"build.kirop               →","timestamp":"2025-02-17T17:27:41.620Z","level":"verbose"}
+{"msg":"#15 DONE 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:41.621Z","level":"verbose"}
+{"msg":"#16 [builder 9/9] RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -o manager cmd/main.go","section":"build.kirop               →","timestamp":"2025-02-17T17:27:41.621Z","level":"verbose"}
+{"msg":"#16 DONE 12.8s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:54.299Z","level":"verbose"}
+{"msg":"#17 [stage-1 2/3] COPY --from=builder /workspace/manager .","section":"build.kirop               →","timestamp":"2025-02-17T17:27:54.457Z","level":"verbose"}
+{"msg":"#17 DONE 0.1s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:54.457Z","level":"verbose"}
+{"msg":"#18 exporting to image","section":"build.kirop               →","timestamp":"2025-02-17T17:27:54.616Z","level":"verbose"}
+{"msg":"#18 exporting layers","section":"build.kirop               →","timestamp":"2025-02-17T17:27:54.616Z","level":"verbose"}
+{"msg":"#18 exporting layers 0.6s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:55.036Z","level":"verbose"}
+{"msg":"#18 writing image sha256:55b140058afe3a41e9f2d3a7a9ab50061c27b637b7ae87a0d7dda444aee1dccd done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:55.189Z","level":"verbose"}
+{"msg":"#18 naming to docker.io/library/kirop:v-36733f3f3b 0.0s done","section":"build.kirop               →","timestamp":"2025-02-17T17:27:55.189Z","level":"verbose"}
+{"msg":"#18 DONE 0.6s","section":"build.kirop               →","timestamp":"2025-02-17T17:27:55.189Z","level":"verbose"}
+{"msg":"Loading image kirop:v-36733f3f3b into kind cluster","section":"build.kirop               →","timestamp":"2025-02-17T17:27:55.192Z","level":"debug"}
+{"msg":"Done (took 46.9 sec)","section":"build.kirop               →","timestamp":"2025-02-17T17:27:57.226Z","level":"info"}
+{"msg":"Build type=container name=kirop is ready.","section":"build.kirop               →","timestamp":"2025-02-17T17:27:57.226Z","level":"verbose"}
+{"msg":"Done!","section":"","timestamp":"2025-02-17T17:27:57.278Z","level":"info"}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2025-02-17T17:27:57.279Z","level":"debug"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Command build completed successfully! ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:27:57.330Z","level":"info"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:28:11.595Z","level":"info"}
+{"msg":"Resolving actions and modules...","section":"graph                     →","timestamp":"2025-02-17T17:28:11.614Z","level":"info"}
+{"msg":"Building graph from 3 action configs and 0 group configs","section":"graph                     →","timestamp":"2025-02-17T17:28:11.642Z","level":"debug"}
+{"msg":"Retained 3 configs","section":"graph                     →","timestamp":"2025-02-17T17:28:11.642Z","level":"debug"}
+{"msg":"Got 3 action configs without action filter","section":"graph                     →","timestamp":"2025-02-17T17:28:11.644Z","level":"debug"}
+{"msg":"Finding minimal roots for 1 paths","section":"graph                     →","timestamp":"2025-02-17T17:28:11.644Z","level":"debug"}
+{"msg":"Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop\n  → Includes: (none)\n  → Excludes: (none)","section":"git                       →","timestamp":"2025-02-17T17:28:11.645Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen","section":"git                       →","timestamp":"2025-02-17T17:28:11.662Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize","section":"git                       →","timestamp":"2025-02-17T17:28:11.662Z","level":"verbose"}
+{"msg":"Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.05 sec)","section":"git                       →","timestamp":"2025-02-17T17:28:11.697Z","level":"verbose"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:28:11.697Z","level":"debug"}
+{"msg":"Include globs: **/*","section":"graph                     →","timestamp":"2025-02-17T17:28:11.697Z","level":"debug"}
+{"msg":"No exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:28:11.697Z","level":"debug"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching","section":"graph                     →","timestamp":"2025-02-17T17:28:11.698Z","level":"debug"}
+{"msg":"Finished resolving graph (took 0.1 sec)","section":"graph                     →","timestamp":"2025-02-17T17:28:11.699Z","level":"info"}
+{"msg":"resolve Deploy type=kubernetes name=kirop-crd-manifests is ready.","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:11.704Z","level":"debug"}
+{"msg":"Getting status for Deploy kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:11.705Z","level":"info"}
+{"msg":"resolve Build type=container name=kirop is ready.","section":"build.kirop               →","timestamp":"2025-02-17T17:28:11.705Z","level":"debug"}
+{"msg":"resolve Deploy type=kubernetes name=kirop is ready.","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:11.709Z","level":"debug"}
+{"msg":"Getting status for Deploy kirop (type kubernetes) at version v-2375afdf63...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:11.709Z","level":"info"}
+{"msg":"Status is missing, kirop-crd-manifests will be deployed","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:11.715Z","level":"info"}
+{"msg":"Deploying kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:11.716Z","level":"info"}
+{"msg":"Status is missing, kirop will be deployed","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:11.718Z","level":"info"}
+{"msg":"Getting status for Build kirop (type container) at version v-e657f6b9e8...","section":"build.kirop               →","timestamp":"2025-02-17T17:28:11.718Z","level":"info"}
+{"msg":"Checking if image kirop:v-36733f3f3b has been loaded into kind cluster","section":"build.kirop               →","timestamp":"2025-02-17T17:28:11.719Z","level":"debug"}
+{"msg":"Fetching kustomize-5 5.4.2...","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:11.723Z","level":"info"}
+{"msg":"Downloading https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv5.4.2/kustomize_v5.4.2_linux_amd64.tar.gz...","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:11.723Z","level":"debug"}
+{"msg":"Image kirop:v-36733f3f3b has been loaded into kind cluster","section":"build.kirop               →","timestamp":"2025-02-17T17:28:11.768Z","level":"debug"}
+{"msg":"Already built","section":"build.kirop               →","timestamp":"2025-02-17T17:28:11.768Z","level":"info"}
+{"msg":"Build type=container name=kirop status is ready.","section":"build.kirop               →","timestamp":"2025-02-17T17:28:11.768Z","level":"verbose"}
+{"msg":"Done (took 2 sec)","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:13.765Z","level":"debug"}
+{"msg":"Fetched kustomize-5 5.4.2 (took 2 sec)","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:13.765Z","level":"info"}
+{"msg":"Kubernetes: Getting API resource info for group apiextensions.k8s.io/v1","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:13.776Z","level":"debug"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:13.867Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:13.867Z","level":"verbose"}
+{"msg":"Status of CustomResourceDefinition trees.tree.nullcloud.io is \"ready\"","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:15.875Z","level":"debug"}
+{"msg":"Status of CustomResourceDefinition trees.tree.nullcloud.io is \"ready\"","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:15.875Z","level":"verbose"}
+{"msg":"Status of ConfigMap garden-meta-deploy-kirop-crd-manifests is \"ready\"","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:15.875Z","level":"debug"}
+{"msg":"Status of ConfigMap garden-meta-deploy-kirop-crd-manifests is \"ready\"","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:15.875Z","level":"verbose"}
+{"msg":"Resources ready","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:15.875Z","level":"verbose"}
+{"msg":"Resources ready","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:15.875Z","level":"info"}
+{"msg":"Done (took 4.2 sec)","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:15.886Z","level":"info"}
+{"msg":"Deploy type=kubernetes name=kirop-crd-manifests is ready.","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:28:15.886Z","level":"verbose"}
+{"msg":"Deploying kirop (type kubernetes) at version v-2375afdf63...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:15.887Z","level":"info"}
+{"msg":"A patch is defined for a Kubernetes Deployment with name controller-manager but no Kubernetes resource with a corresponding kind and name found.","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:15.909Z","level":"warn"}
+{"msg":"Kubernetes: Getting API resource info for group rbac.authorization.k8s.io/v1","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:15.910Z","level":"debug"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:15.969Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:15.969Z","level":"verbose"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:17.975Z","level":"debug"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:17.975Z","level":"verbose"}
+{"msg":"Resources ready","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:17.975Z","level":"verbose"}
+{"msg":"Resources ready","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:17.975Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:18.283Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:18.283Z","level":"verbose"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.348Z","level":"debug"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of CustomResourceDefinition trees.tree.nullcloud.io is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of CustomResourceDefinition trees.tree.nullcloud.io is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of ServiceAccount tree-operator-controller-manager is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of ServiceAccount tree-operator-controller-manager is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of Role tree-operator-leader-election-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of Role tree-operator-leader-election-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-manager-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-manager-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-metrics-auth-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-metrics-auth-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-metrics-reader is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-metrics-reader is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-tree-admin-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-tree-admin-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-tree-editor-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-tree-editor-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-tree-viewer-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-tree-viewer-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of RoleBinding tree-operator-leader-election-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of RoleBinding tree-operator-leader-election-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of ClusterRoleBinding tree-operator-manager-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of ClusterRoleBinding tree-operator-manager-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of Service tree-operator-controller-manager-metrics-service is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of Service tree-operator-controller-manager-metrics-service is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"verbose"}
+{"msg":"Status of Deployment tree-operator-controller-manager is \"unhealthy\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.349Z","level":"debug"}
+{"msg":"Status of Deployment tree-operator-controller-manager is \"unhealthy\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.350Z","level":"verbose"}
+{"msg":"Error deploying deploy.kirop: Failed - Error: ImagePullBackOff\n\n━━━ Latest events from Deployment tree-operator-controller-manager ━━━\nDeployment tree-operator-controller-manager: ScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Scheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Pulling - Pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Failed to pull image \"controller:latest\": failed to pull and unpack image \"docker.io/library/controller:latest\": failed to resolve reference \"docker.io/library/controller:latest\": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ErrImagePull\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: BackOff - Back-off pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ImagePullBackOff","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.350Z","level":"verbose"}
+{"msg":"Failed (took 4.5 sec)","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.350Z","level":"error"}
+{"msg":"Failed processing Deploy type=kubernetes name=kirop (took 8.65 sec). This is what happened:\n\n────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\nError deploying deploy.kirop: Failed - Error: ImagePullBackOff\n\n━━━ Latest events from Deployment tree-operator-controller-manager ━━━\nDeployment tree-operator-controller-manager: ScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Scheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Pulling - Pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Failed to pull image \"controller:latest\": failed to pull and unpack image \"docker.io/library/controller:latest\": failed to resolve reference \"docker.io/library/controller:latest\": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ErrImagePull\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: BackOff - Back-off pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ImagePullBackOff\n────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────","section":"deploy.kirop              →","timestamp":"2025-02-17T17:28:20.351Z","level":"error","errorDetail":"Error: Error deploying deploy.kirop: Failed - Error: ImagePullBackOff\n\n\u001b[94m━━━ Latest events from Deployment tree-operator-controller-manager ━━━\u001b[39m\n\u001b[36mDeployment tree-operator-controller-manager:\u001b[39m \u001b[36mScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[36mScheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[36mPulling - Pulling image \"controller:latest\"\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[33mFailed - Failed to pull image \"controller:latest\": failed to pull and unpack image \"docker.io/library/controller:latest\": failed to resolve reference \"docker.io/library/controller:latest\": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[33mFailed - Error: ErrImagePull\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[36mBackOff - Back-off pulling image \"controller:latest\"\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[33mFailed - Error: ImagePullBackOff\u001b[39m\n    at waitForResources (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:793676:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.kubernetesDeploy (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/kubernetes-CqCzdhKa.mjs:1220:9)\n    at async Object.assign.handlerType.handlerType (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:870742:28)\n    at async Router.callHandler (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:870713:24)\n    at async deploy (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:871388:24)\n    at async DeployTask.process (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:449872:28)\n    at async descriptor.value (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:447566:29)\n    at async file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:449220:30\n    at async ProcessTaskNode.execute (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:888289:35)\nError type: deployment"}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2025-02-17T17:28:20.352Z","level":"debug"}
+{"msg":"See .garden/error.log for detailed error message","section":"","timestamp":"2025-02-17T17:28:20.404Z","level":"info"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:28:20.404Z","level":"error"}
+{"msg":"Config change detected. Project will be reloaded when the next command is run.","section":"garden                    →","timestamp":"2025-02-17T17:29:02.120Z","level":"info"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:30:49.948Z","level":"info"}
+{"msg":"Initializing Garden context for local (flagged for reload)","section":"","timestamp":"2025-02-17T17:30:49.963Z","level":"verbose"}
+{"msg":"Instance key: env=local","section":"","timestamp":"2025-02-17T17:30:49.963Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T17:30:49.973Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T17:30:49.974Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T17:30:49.974Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T17:30:49.974Z","level":"info"}
+{"msg":"Garden context updated for key env=local","section":"","timestamp":"2025-02-17T17:30:49.980Z","level":"debug"}
+{"msg":"Scanning project root at /home/marek/code/job_hunting\n  → Includes: **/*garden.y*ml\n  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**","section":"git                       →","timestamp":"2025-02-17T17:30:49.981Z","level":"verbose"}
+{"msg":"Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)","section":"git                       →","timestamp":"2025-02-17T17:30:50.019Z","level":"verbose"}
+{"msg":"Scanned and found 3 actions, 0 workflows and 0 modules","section":"","timestamp":"2025-02-17T17:30:50.021Z","level":"debug"}
+{"msg":"Watcher: Add 2 paths","section":"","timestamp":"2025-02-17T17:30:50.021Z","level":"debug"}
+{"msg":"Resolving providers...","section":"providers                 →","timestamp":"2025-02-17T17:30:50.022Z","level":"info"}
+{"msg":"Configuring provider...","section":"exec                      →","timestamp":"2025-02-17T17:30:50.047Z","level":"info"}
+{"msg":"Configuring provider...","section":"container                 →","timestamp":"2025-02-17T17:30:50.048Z","level":"debug"}
+{"msg":"Configuring provider...","section":"templated                 →","timestamp":"2025-02-17T17:30:50.048Z","level":"debug"}
+{"msg":"Provider configured","section":"exec                      →","timestamp":"2025-02-17T17:30:50.049Z","level":"info"}
+{"msg":"Provider configured","section":"container                 →","timestamp":"2025-02-17T17:30:50.050Z","level":"debug"}
+{"msg":"Provider configured","section":"templated                 →","timestamp":"2025-02-17T17:30:50.050Z","level":"debug"}
+{"msg":"Provider status cached","section":"exec                      →","timestamp":"2025-02-17T17:30:50.051Z","level":"info"}
+{"msg":"resolve provider exec is ready.","section":"providers                 →","timestamp":"2025-02-17T17:30:50.051Z","level":"verbose"}
+{"msg":"Provider status cached","section":"container                 →","timestamp":"2025-02-17T17:30:50.052Z","level":"debug"}
+{"msg":"resolve provider container is ready.","section":"providers                 →","timestamp":"2025-02-17T17:30:50.052Z","level":"verbose"}
+{"msg":"Configuring provider...","section":"local-kubernetes          →","timestamp":"2025-02-17T17:30:50.052Z","level":"info"}
+{"msg":"Provider status cached","section":"templated                 →","timestamp":"2025-02-17T17:30:50.053Z","level":"debug"}
+{"msg":"resolve provider templated is ready.","section":"providers                 →","timestamp":"2025-02-17T17:30:50.053Z","level":"verbose"}
+{"msg":"Using current context: kind-kind","section":"local-kubernetes          →","timestamp":"2025-02-17T17:30:50.080Z","level":"info"}
+{"msg":"Provider configured","section":"local-kubernetes          →","timestamp":"2025-02-17T17:30:50.080Z","level":"info"}
+{"msg":"Preparing environment","section":"local-kubernetes          →","timestamp":"2025-02-17T17:30:50.081Z","level":"info"}
+{"msg":"Found kind with the following version details kind v0.22.0 go1.22.1 linux/amd64","section":"local-kubernetes          →","timestamp":"2025-02-17T17:30:50.086Z","level":"debug"}
+{"msg":"Status of ingress controller: ready","section":"local-kubernetes          →","timestamp":"2025-02-17T17:30:50.106Z","level":"debug"}
+{"msg":"Provider ready","section":"local-kubernetes          →","timestamp":"2025-02-17T17:30:50.106Z","level":"info"}
+{"msg":"resolve provider local-kubernetes is ready.","section":"providers                 →","timestamp":"2025-02-17T17:30:50.107Z","level":"verbose"}
+{"msg":"Finished resolving providers (took 0.1 sec)","section":"providers                 →","timestamp":"2025-02-17T17:30:50.107Z","level":"info"}
+{"msg":"Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.","section":"providers                 →","timestamp":"2025-02-17T17:30:50.107Z","level":"info"}
+{"msg":"Resolving actions and modules...","section":"graph                     →","timestamp":"2025-02-17T17:30:50.107Z","level":"info"}
+{"msg":"Building graph from 3 action configs and 0 group configs","section":"graph                     →","timestamp":"2025-02-17T17:30:50.107Z","level":"debug"}
+{"msg":"Retained 3 configs","section":"graph                     →","timestamp":"2025-02-17T17:30:50.108Z","level":"debug"}
+{"msg":"Got 3 action configs without action filter","section":"graph                     →","timestamp":"2025-02-17T17:30:50.109Z","level":"debug"}
+{"msg":"Finding minimal roots for 1 paths","section":"graph                     →","timestamp":"2025-02-17T17:30:50.109Z","level":"debug"}
+{"msg":"Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop\n  → Includes: (none)\n  → Excludes: (none)","section":"git                       →","timestamp":"2025-02-17T17:30:50.114Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen","section":"git                       →","timestamp":"2025-02-17T17:30:50.132Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize","section":"git                       →","timestamp":"2025-02-17T17:30:50.133Z","level":"verbose"}
+{"msg":"Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.05 sec)","section":"git                       →","timestamp":"2025-02-17T17:30:50.166Z","level":"verbose"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:30:50.167Z","level":"debug"}
+{"msg":"Include globs: **/*","section":"graph                     →","timestamp":"2025-02-17T17:30:50.167Z","level":"debug"}
+{"msg":"No exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:30:50.167Z","level":"debug"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching","section":"graph                     →","timestamp":"2025-02-17T17:30:50.167Z","level":"debug"}
+{"msg":"Finished resolving graph (took 0.1 sec)","section":"graph                     →","timestamp":"2025-02-17T17:30:50.168Z","level":"info"}
+{"msg":"resolve Deploy type=kubernetes name=kirop-crd-manifests is ready.","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:30:50.173Z","level":"debug"}
+{"msg":"Getting status for Deploy kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:30:50.173Z","level":"info"}
+{"msg":"resolve Build type=container name=kirop is ready.","section":"build.kirop               →","timestamp":"2025-02-17T17:30:50.173Z","level":"debug"}
+{"msg":"resolve Deploy type=kubernetes name=kirop is ready.","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:50.176Z","level":"debug"}
+{"msg":"Getting status for Deploy kirop (type kubernetes) at version v-2375afdf63...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:50.177Z","level":"info"}
+{"msg":"Already deployed","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:30:50.221Z","level":"info"}
+{"msg":"Deploy type=kubernetes name=kirop-crd-manifests status is ready.","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:30:50.221Z","level":"verbose"}
+{"msg":"Status is unhealthy, kirop will be deployed","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:50.252Z","level":"info"}
+{"msg":"Getting status for Build kirop (type container) at version v-e657f6b9e8...","section":"build.kirop               →","timestamp":"2025-02-17T17:30:50.253Z","level":"info"}
+{"msg":"Checking if image kirop:v-36733f3f3b has been loaded into kind cluster","section":"build.kirop               →","timestamp":"2025-02-17T17:30:50.253Z","level":"debug"}
+{"msg":"Image kirop:v-36733f3f3b has been loaded into kind cluster","section":"build.kirop               →","timestamp":"2025-02-17T17:30:50.308Z","level":"debug"}
+{"msg":"Already built","section":"build.kirop               →","timestamp":"2025-02-17T17:30:50.309Z","level":"info"}
+{"msg":"Build type=container name=kirop status is ready.","section":"build.kirop               →","timestamp":"2025-02-17T17:30:50.309Z","level":"verbose"}
+{"msg":"Deploying kirop (type kubernetes) at version v-2375afdf63...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:50.310Z","level":"info"}
+{"msg":"A patch is defined for a Kubernetes Deployment with name controller-manager but no Kubernetes resource with a corresponding kind and name found.","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:50.330Z","level":"warn"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:50.416Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:50.416Z","level":"verbose"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:52.427Z","level":"debug"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:52.427Z","level":"verbose"}
+{"msg":"Resources ready","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:52.427Z","level":"verbose"}
+{"msg":"Resources ready","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:52.427Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:52.807Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:52.807Z","level":"verbose"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"debug"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"verbose"}
+{"msg":"Status of CustomResourceDefinition trees.tree.nullcloud.io is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"debug"}
+{"msg":"Status of CustomResourceDefinition trees.tree.nullcloud.io is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"verbose"}
+{"msg":"Status of ServiceAccount tree-operator-controller-manager is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"debug"}
+{"msg":"Status of ServiceAccount tree-operator-controller-manager is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"verbose"}
+{"msg":"Status of Role tree-operator-leader-election-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"debug"}
+{"msg":"Status of Role tree-operator-leader-election-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-manager-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-manager-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-metrics-auth-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.863Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-metrics-auth-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-metrics-reader is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-metrics-reader is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-tree-admin-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-tree-admin-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-tree-editor-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-tree-editor-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-tree-viewer-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-tree-viewer-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Status of RoleBinding tree-operator-leader-election-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"debug"}
+{"msg":"Status of RoleBinding tree-operator-leader-election-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Status of ClusterRoleBinding tree-operator-manager-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"debug"}
+{"msg":"Status of ClusterRoleBinding tree-operator-manager-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"debug"}
+{"msg":"Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Status of Service tree-operator-controller-manager-metrics-service is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"debug"}
+{"msg":"Status of Service tree-operator-controller-manager-metrics-service is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Status of Deployment tree-operator-controller-manager is \"unhealthy\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"debug"}
+{"msg":"Status of Deployment tree-operator-controller-manager is \"unhealthy\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Error deploying deploy.kirop: ImagePullBackOff - Back-off pulling image \"controller:latest\"\n\n━━━ Latest events from Deployment tree-operator-controller-manager ━━━\nDeployment tree-operator-controller-manager: ScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Scheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Pulling - Pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Failed to pull image \"controller:latest\": failed to pull and unpack image \"docker.io/library/controller:latest\": failed to resolve reference \"docker.io/library/controller:latest\": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ErrImagePull\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: BackOff - Back-off pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ImagePullBackOff","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"verbose"}
+{"msg":"Failed (took 4.6 sec)","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.864Z","level":"error"}
+{"msg":"Failed processing Deploy type=kubernetes name=kirop (took 4.7 sec). This is what happened:\n\n────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\nError deploying deploy.kirop: ImagePullBackOff - Back-off pulling image \"controller:latest\"\n\n━━━ Latest events from Deployment tree-operator-controller-manager ━━━\nDeployment tree-operator-controller-manager: ScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Scheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Pulling - Pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Failed to pull image \"controller:latest\": failed to pull and unpack image \"docker.io/library/controller:latest\": failed to resolve reference \"docker.io/library/controller:latest\": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ErrImagePull\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: BackOff - Back-off pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ImagePullBackOff\n────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────","section":"deploy.kirop              →","timestamp":"2025-02-17T17:30:54.865Z","level":"error","errorDetail":"Error: Error deploying deploy.kirop: ImagePullBackOff - Back-off pulling image \"controller:latest\"\n\n\u001b[94m━━━ Latest events from Deployment tree-operator-controller-manager ━━━\u001b[39m\n\u001b[36mDeployment tree-operator-controller-manager:\u001b[39m \u001b[36mScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[36mScheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[36mPulling - Pulling image \"controller:latest\"\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[33mFailed - Failed to pull image \"controller:latest\": failed to pull and unpack image \"docker.io/library/controller:latest\": failed to resolve reference \"docker.io/library/controller:latest\": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[33mFailed - Error: ErrImagePull\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[36mBackOff - Back-off pulling image \"controller:latest\"\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[33mFailed - Error: ImagePullBackOff\u001b[39m\n    at waitForResources (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:793676:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.kubernetesDeploy (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/kubernetes-CqCzdhKa.mjs:1220:9)\n    at async Object.assign.handlerType.handlerType (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:870742:28)\n    at async Router.callHandler (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:870713:24)\n    at async deploy (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:871388:24)\n    at async DeployTask.process (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:449872:28)\n    at async descriptor.value (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:447566:29)\n    at async file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:449220:30\n    at async ProcessTaskNode.execute (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:888289:35)\nError type: deployment"}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2025-02-17T17:30:54.866Z","level":"debug"}
+{"msg":"See .garden/error.log for detailed error message","section":"","timestamp":"2025-02-17T17:30:54.917Z","level":"info"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:30:54.917Z","level":"error"}
+{"msg":"Config change detected. Project will be reloaded when the next command is run.","section":"garden                    →","timestamp":"2025-02-17T17:31:47.426Z","level":"info"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:32:35.174Z","level":"info"}
+{"msg":"Initializing Garden context for local (flagged for reload)","section":"","timestamp":"2025-02-17T17:32:35.188Z","level":"verbose"}
+{"msg":"Instance key: env=local","section":"","timestamp":"2025-02-17T17:32:35.188Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T17:32:35.200Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T17:32:35.200Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T17:32:35.200Z","level":"info"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T17:32:35.200Z","level":"info"}
+{"msg":"Garden context updated for key env=local","section":"","timestamp":"2025-02-17T17:32:35.206Z","level":"debug"}
+{"msg":"Scanning project root at /home/marek/code/job_hunting\n  → Includes: **/*garden.y*ml\n  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**","section":"git                       →","timestamp":"2025-02-17T17:32:35.207Z","level":"verbose"}
+{"msg":"Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)","section":"git                       →","timestamp":"2025-02-17T17:32:35.247Z","level":"verbose"}
+{"msg":"Scanned and found 3 actions, 0 workflows and 0 modules","section":"","timestamp":"2025-02-17T17:32:35.248Z","level":"debug"}
+{"msg":"Watcher: Add 2 paths","section":"","timestamp":"2025-02-17T17:32:35.248Z","level":"debug"}
+{"msg":"Resolving providers...","section":"providers                 →","timestamp":"2025-02-17T17:32:35.249Z","level":"info"}
+{"msg":"Configuring provider...","section":"exec                      →","timestamp":"2025-02-17T17:32:35.268Z","level":"info"}
+{"msg":"Configuring provider...","section":"container                 →","timestamp":"2025-02-17T17:32:35.268Z","level":"debug"}
+{"msg":"Configuring provider...","section":"templated                 →","timestamp":"2025-02-17T17:32:35.268Z","level":"debug"}
+{"msg":"Provider configured","section":"exec                      →","timestamp":"2025-02-17T17:32:35.270Z","level":"info"}
+{"msg":"Provider configured","section":"container                 →","timestamp":"2025-02-17T17:32:35.270Z","level":"debug"}
+{"msg":"Provider configured","section":"templated                 →","timestamp":"2025-02-17T17:32:35.270Z","level":"debug"}
+{"msg":"Provider status cached","section":"exec                      →","timestamp":"2025-02-17T17:32:35.272Z","level":"info"}
+{"msg":"resolve provider exec is ready.","section":"providers                 →","timestamp":"2025-02-17T17:32:35.272Z","level":"verbose"}
+{"msg":"Provider status cached","section":"container                 →","timestamp":"2025-02-17T17:32:35.272Z","level":"debug"}
+{"msg":"resolve provider container is ready.","section":"providers                 →","timestamp":"2025-02-17T17:32:35.272Z","level":"verbose"}
+{"msg":"Configuring provider...","section":"local-kubernetes          →","timestamp":"2025-02-17T17:32:35.272Z","level":"info"}
+{"msg":"Provider status cached","section":"templated                 →","timestamp":"2025-02-17T17:32:35.273Z","level":"debug"}
+{"msg":"resolve provider templated is ready.","section":"providers                 →","timestamp":"2025-02-17T17:32:35.273Z","level":"verbose"}
+{"msg":"Using current context: kind-kind","section":"local-kubernetes          →","timestamp":"2025-02-17T17:32:35.302Z","level":"info"}
+{"msg":"Provider configured","section":"local-kubernetes          →","timestamp":"2025-02-17T17:32:35.303Z","level":"info"}
+{"msg":"Preparing environment","section":"local-kubernetes          →","timestamp":"2025-02-17T17:32:35.304Z","level":"info"}
+{"msg":"Found kind with the following version details kind v0.22.0 go1.22.1 linux/amd64","section":"local-kubernetes          →","timestamp":"2025-02-17T17:32:35.309Z","level":"debug"}
+{"msg":"Status of ingress controller: ready","section":"local-kubernetes          →","timestamp":"2025-02-17T17:32:35.328Z","level":"debug"}
+{"msg":"Provider ready","section":"local-kubernetes          →","timestamp":"2025-02-17T17:32:35.328Z","level":"info"}
+{"msg":"resolve provider local-kubernetes is ready.","section":"providers                 →","timestamp":"2025-02-17T17:32:35.328Z","level":"verbose"}
+{"msg":"Finished resolving providers (took 0.1 sec)","section":"providers                 →","timestamp":"2025-02-17T17:32:35.329Z","level":"info"}
+{"msg":"Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.","section":"providers                 →","timestamp":"2025-02-17T17:32:35.329Z","level":"info"}
+{"msg":"Resolving actions and modules...","section":"graph                     →","timestamp":"2025-02-17T17:32:35.329Z","level":"info"}
+{"msg":"Building graph from 3 action configs and 0 group configs","section":"graph                     →","timestamp":"2025-02-17T17:32:35.329Z","level":"debug"}
+{"msg":"Retained 3 configs","section":"graph                     →","timestamp":"2025-02-17T17:32:35.329Z","level":"debug"}
+{"msg":"Got 3 action configs without action filter","section":"graph                     →","timestamp":"2025-02-17T17:32:35.331Z","level":"debug"}
+{"msg":"Finding minimal roots for 1 paths","section":"graph                     →","timestamp":"2025-02-17T17:32:35.331Z","level":"debug"}
+{"msg":"Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop\n  → Includes: (none)\n  → Excludes: (none)","section":"git                       →","timestamp":"2025-02-17T17:32:35.336Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen","section":"git                       →","timestamp":"2025-02-17T17:32:35.353Z","level":"verbose"}
+{"msg":"Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize","section":"git                       →","timestamp":"2025-02-17T17:32:35.353Z","level":"verbose"}
+{"msg":"Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.05 sec)","section":"git                       →","timestamp":"2025-02-17T17:32:35.390Z","level":"verbose"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:32:35.390Z","level":"debug"}
+{"msg":"Include globs: **/*","section":"graph                     →","timestamp":"2025-02-17T17:32:35.390Z","level":"debug"}
+{"msg":"No exclude globs","section":"graph                     →","timestamp":"2025-02-17T17:32:35.390Z","level":"debug"}
+{"msg":"Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching","section":"graph                     →","timestamp":"2025-02-17T17:32:35.390Z","level":"debug"}
+{"msg":"Finished resolving graph (took 0.1 sec)","section":"graph                     →","timestamp":"2025-02-17T17:32:35.391Z","level":"info"}
+{"msg":"resolve Deploy type=kubernetes name=kirop-crd-manifests is ready.","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:32:35.395Z","level":"debug"}
+{"msg":"Getting status for Deploy kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:32:35.396Z","level":"info"}
+{"msg":"resolve Build type=container name=kirop is ready.","section":"build.kirop               →","timestamp":"2025-02-17T17:32:35.396Z","level":"debug"}
+{"msg":"resolve Deploy type=kubernetes name=kirop is ready.","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:35.399Z","level":"debug"}
+{"msg":"Getting status for Deploy kirop (type kubernetes) at version v-2375afdf63...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:35.399Z","level":"info"}
+{"msg":"Already deployed","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:32:35.447Z","level":"info"}
+{"msg":"Deploy type=kubernetes name=kirop-crd-manifests status is ready.","section":"deploy.kirop-crd-manifests →","timestamp":"2025-02-17T17:32:35.447Z","level":"verbose"}
+{"msg":"Status is unhealthy, kirop will be deployed","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:35.472Z","level":"info"}
+{"msg":"Getting status for Build kirop (type container) at version v-e657f6b9e8...","section":"build.kirop               →","timestamp":"2025-02-17T17:32:35.473Z","level":"info"}
+{"msg":"Checking if image kirop:v-36733f3f3b has been loaded into kind cluster","section":"build.kirop               →","timestamp":"2025-02-17T17:32:35.474Z","level":"debug"}
+{"msg":"Image kirop:v-36733f3f3b has been loaded into kind cluster","section":"build.kirop               →","timestamp":"2025-02-17T17:32:35.538Z","level":"debug"}
+{"msg":"Already built","section":"build.kirop               →","timestamp":"2025-02-17T17:32:35.539Z","level":"info"}
+{"msg":"Build type=container name=kirop status is ready.","section":"build.kirop               →","timestamp":"2025-02-17T17:32:35.539Z","level":"verbose"}
+{"msg":"Deploying kirop (type kubernetes) at version v-2375afdf63...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:35.540Z","level":"info"}
+{"msg":"A patch is defined for a Kubernetes Deployment with name controller-manager but no Kubernetes resource with a corresponding kind and name found.","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:35.560Z","level":"warn"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:35.648Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:35.649Z","level":"verbose"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:37.654Z","level":"debug"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:37.655Z","level":"verbose"}
+{"msg":"Resources ready","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:37.655Z","level":"verbose"}
+{"msg":"Resources ready","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:37.655Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:38.036Z","level":"info"}
+{"msg":"Waiting for resources to be ready...","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:38.036Z","level":"verbose"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"debug"}
+{"msg":"Status of Namespace tree-operator-system is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"verbose"}
+{"msg":"Status of CustomResourceDefinition trees.tree.nullcloud.io is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"debug"}
+{"msg":"Status of CustomResourceDefinition trees.tree.nullcloud.io is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"verbose"}
+{"msg":"Status of ServiceAccount tree-operator-controller-manager is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"debug"}
+{"msg":"Status of ServiceAccount tree-operator-controller-manager is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"verbose"}
+{"msg":"Status of Role tree-operator-leader-election-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"debug"}
+{"msg":"Status of Role tree-operator-leader-election-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-manager-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-manager-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-metrics-auth-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.091Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-metrics-auth-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-metrics-reader is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-metrics-reader is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-tree-admin-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-tree-admin-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-tree-editor-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-tree-editor-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Status of ClusterRole tree-operator-tree-viewer-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"debug"}
+{"msg":"Status of ClusterRole tree-operator-tree-viewer-role is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Status of RoleBinding tree-operator-leader-election-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"debug"}
+{"msg":"Status of RoleBinding tree-operator-leader-election-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Status of ClusterRoleBinding tree-operator-manager-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"debug"}
+{"msg":"Status of ClusterRoleBinding tree-operator-manager-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"debug"}
+{"msg":"Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Status of Service tree-operator-controller-manager-metrics-service is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"debug"}
+{"msg":"Status of Service tree-operator-controller-manager-metrics-service is \"ready\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Status of Deployment tree-operator-controller-manager is \"unhealthy\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"debug"}
+{"msg":"Status of Deployment tree-operator-controller-manager is \"unhealthy\"","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Error deploying deploy.kirop: ImagePullBackOff - Back-off pulling image \"controller:latest\"\n\n━━━ Latest events from Deployment tree-operator-controller-manager ━━━\nDeployment tree-operator-controller-manager: ScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Scheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Pulling - Pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Failed to pull image \"controller:latest\": failed to pull and unpack image \"docker.io/library/controller:latest\": failed to resolve reference \"docker.io/library/controller:latest\": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ErrImagePull\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: BackOff - Back-off pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ImagePullBackOff","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"verbose"}
+{"msg":"Failed (took 4.6 sec)","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.092Z","level":"error"}
+{"msg":"Failed processing Deploy type=kubernetes name=kirop (took 4.7 sec). This is what happened:\n\n────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────\nError deploying deploy.kirop: ImagePullBackOff - Back-off pulling image \"controller:latest\"\n\n━━━ Latest events from Deployment tree-operator-controller-manager ━━━\nDeployment tree-operator-controller-manager: ScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Scheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Pulling - Pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Failed to pull image \"controller:latest\": failed to pull and unpack image \"docker.io/library/controller:latest\": failed to resolve reference \"docker.io/library/controller:latest\": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ErrImagePull\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: BackOff - Back-off pulling image \"controller:latest\"\nPod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ImagePullBackOff\n────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────","section":"deploy.kirop              →","timestamp":"2025-02-17T17:32:40.093Z","level":"error","errorDetail":"Error: Error deploying deploy.kirop: ImagePullBackOff - Back-off pulling image \"controller:latest\"\n\n\u001b[94m━━━ Latest events from Deployment tree-operator-controller-manager ━━━\u001b[39m\n\u001b[36mDeployment tree-operator-controller-manager:\u001b[39m \u001b[36mScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[36mScheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[36mPulling - Pulling image \"controller:latest\"\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[33mFailed - Failed to pull image \"controller:latest\": failed to pull and unpack image \"docker.io/library/controller:latest\": failed to resolve reference \"docker.io/library/controller:latest\": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[33mFailed - Error: ErrImagePull\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[36mBackOff - Back-off pulling image \"controller:latest\"\u001b[39m\n\u001b[36mPod tree-operator-controller-manager-5b5c67c9ff-5fl8l:\u001b[39m \u001b[33mFailed - Error: ImagePullBackOff\u001b[39m\n    at waitForResources (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:793676:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Object.kubernetesDeploy (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/kubernetes-CqCzdhKa.mjs:1220:9)\n    at async Object.assign.handlerType.handlerType (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:870742:28)\n    at async Router.callHandler (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:870713:24)\n    at async deploy (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:871388:24)\n    at async DeployTask.process (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:449872:28)\n    at async descriptor.value (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:447566:29)\n    at async file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:449220:30\n    at async ProcessTaskNode.execute (file:///home/marek/.local/share/garden/1739807865-p6UrOWc.r/rollup/garden.mjs:888289:35)\nError type: deployment"}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2025-02-17T17:32:40.094Z","level":"debug"}
+{"msg":"See .garden/error.log for detailed error message","section":"","timestamp":"2025-02-17T17:32:40.144Z","level":"info"}
+{"msg":"┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈","section":"","timestamp":"2025-02-17T17:32:40.144Z","level":"error"}
+{"msg":"Config change detected. Project will be reloaded when the next command is run.","section":"garden                    →","timestamp":"2025-02-17T17:39:35.360Z","level":"info"}
+{"msg":"Initializing Garden context for local (flagged for reload)","section":"","timestamp":"2025-02-17T17:39:50.815Z","level":"verbose"}
+{"msg":"Instance key: env=local","section":"","timestamp":"2025-02-17T17:39:50.815Z","level":"debug"}
+{"msg":"Authorizing...","section":"garden-dashboard          →","timestamp":"2025-02-17T17:39:50.827Z","level":"info"}
+{"msg":"No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.","section":"","timestamp":"2025-02-17T17:39:50.827Z","level":"debug"}
+{"msg":"You are not logged in. To use the Garden dashboard, log in with the garden login command.","section":"garden-dashboard          →","timestamp":"2025-02-17T17:39:50.827Z","level":"debug"}
+{"msg":"Learn more at: https://docs.garden.io/using-garden/dashboard","section":"garden-dashboard          →","timestamp":"2025-02-17T17:39:50.828Z","level":"debug"}
+{"msg":"Garden context updated for key env=local","section":"","timestamp":"2025-02-17T17:39:50.833Z","level":"debug"}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2025-02-17T17:39:50.835Z","level":"debug"}
+{"msg":"Done flushing all events and log entries.","section":"","timestamp":"2025-02-17T17:39:50.835Z","level":"debug"}

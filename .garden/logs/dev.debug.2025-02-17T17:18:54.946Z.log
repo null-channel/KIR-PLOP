@@ -1,0 +1,1469 @@
+
+[2025-02-17T17:18:54.989Z] [verbose] Initializing Garden context for local (none found for key)
+
+[2025-02-17T17:18:54.990Z] [debug] Instance key: env=local
+
+[2025-02-17T17:18:55.000Z] Authorizing...
+
+[2025-02-17T17:18:55.001Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T17:18:55.001Z] [debug] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:18:55.001Z] [debug] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:18:55.008Z] [debug] Garden context updated for key env=local
+
+[2025-02-17T17:18:55.009Z] [verbose] Scanning project root at /home/marek/code/job_hunting
+  → Includes: **/*garden.y*ml
+  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2025-02-17T17:18:55.045Z] [verbose] Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)
+
+[2025-02-17T17:18:55.049Z] [debug] Scanned and found 3 actions, 0 workflows and 0 modules
+
+[2025-02-17T17:18:55.049Z] [debug] Watcher: Initializing
+
+[2025-02-17T17:18:55.049Z] [debug] Watcher: Starting FSWatcher
+
+[2025-02-17T17:18:55.050Z] [debug] Watcher: Add 2 paths
+
+[2025-02-17T17:18:55.052Z] [debug] Watcher: Ready
+
+[2025-02-17T17:18:55.057Z] Garden server has successfully started at port 9777
+
+
+[2025-02-17T17:18:55.076Z] [debug] Cleaning up 2 paths from watcher
+
+[2025-02-17T17:19:02.704Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running sync start command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:19:02.717Z] [verbose] Initializing Garden context for local (none found for key)
+
+[2025-02-17T17:19:02.717Z] [debug] Instance key: env=local
+
+[2025-02-17T17:19:02.725Z] Authorizing...
+
+[2025-02-17T17:19:02.726Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T17:19:02.726Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:19:02.726Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:19:02.730Z] [debug] Garden context updated for key env=local
+
+[2025-02-17T17:19:02.731Z] [verbose] Scanning project root at /home/marek/code/job_hunting
+  → Includes: **/*garden.y*ml
+  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2025-02-17T17:19:02.766Z] [verbose] Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)
+
+[2025-02-17T17:19:02.768Z] [debug] Scanned and found 3 actions, 0 workflows and 0 modules
+
+[2025-02-17T17:19:02.769Z] [debug] Watcher: Add 2 paths
+
+[2025-02-17T17:19:02.790Z] Resolving providers...
+
+[2025-02-17T17:19:02.902Z] Configuring provider...
+
+[2025-02-17T17:19:02.903Z] [debug] Configuring provider...
+
+[2025-02-17T17:19:02.903Z] [debug] Configuring provider...
+
+[2025-02-17T17:19:02.907Z] Provider configured
+
+[2025-02-17T17:19:02.907Z] [debug] Provider configured
+
+[2025-02-17T17:19:02.908Z] [debug] Provider configured
+
+[2025-02-17T17:19:02.911Z] Provider status cached
+
+[2025-02-17T17:19:02.911Z] [verbose] resolve provider exec is ready.
+
+[2025-02-17T17:19:02.912Z] [debug] Provider status cached
+
+[2025-02-17T17:19:02.912Z] [verbose] resolve provider container is ready.
+
+[2025-02-17T17:19:02.913Z] Configuring provider...
+
+[2025-02-17T17:19:02.914Z] [debug] Provider status cached
+
+[2025-02-17T17:19:02.914Z] [verbose] resolve provider templated is ready.
+
+[2025-02-17T17:19:02.942Z] Using current context: kind-kind
+
+[2025-02-17T17:19:02.943Z] Provider configured
+
+[2025-02-17T17:19:02.944Z] Preparing environment
+
+[2025-02-17T17:19:02.947Z] [debug] Found kind with the following version details kind v0.22.0 go1.22.1 linux/amd64
+
+[2025-02-17T17:19:02.977Z] [debug] Kubernetes: Getting API resource info for group apps/v1
+
+[2025-02-17T17:19:03.000Z] [verbose] Creating namespace kir-flop-kir-flop-marek
+
+[2025-02-17T17:19:03.023Z] [verbose] Creating namespace garden-system
+
+[2025-02-17T17:19:03.040Z] [debug] Status of ingress controller: missing
+
+[2025-02-17T17:19:03.040Z] Installing ingress controller for kind cluster
+
+[2025-02-17T17:19:03.480Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:19:03.481Z] [verbose] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:19:05.506Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:05.506Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:05.507Z] [kubernetes] Deployment/ingress-nginx-controller: MountVolume.SetUp failed for volume "webhook-cert" : secret "ingress-nginx-admission" not found
+
+[2025-02-17T17:19:05.507Z] [verbose] [kubernetes] Deployment/ingress-nginx-controller: MountVolume.SetUp failed for volume "webhook-cert" : secret "ingress-nginx-admission" not found
+
+[2025-02-17T17:19:08.030Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:08.031Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:11.053Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:11.053Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:14.574Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:14.574Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:18.598Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:18.598Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:23.122Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:23.122Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:23.122Z] [kubernetes] Deployment/ingress-nginx-controller: Pulling image "registry.k8s.io/ingress-nginx/controller:v1.12.0@sha256:e6b8de175acda6ca913891f0f727bca4527e797d52688cbe9fec9040d6f6b6fa"
+
+[2025-02-17T17:19:23.122Z] [verbose] [kubernetes] Deployment/ingress-nginx-controller: Pulling image "registry.k8s.io/ingress-nginx/controller:v1.12.0@sha256:e6b8de175acda6ca913891f0f727bca4527e797d52688cbe9fec9040d6f6b6fa"
+
+[2025-02-17T17:19:28.146Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:28.146Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:28.146Z] [kubernetes] Deployment/ingress-nginx-controller: Started container controller
+
+[2025-02-17T17:19:28.147Z] [verbose] [kubernetes] Deployment/ingress-nginx-controller: Started container controller
+
+[2025-02-17T17:19:33.679Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:33.679Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:19:33.679Z] [kubernetes] Deployment/ingress-nginx-controller: RELOAD NGINX reload triggered due to a change in configuration
+
+[2025-02-17T17:19:33.679Z] [verbose] [kubernetes] Deployment/ingress-nginx-controller: RELOAD NGINX reload triggered due to a change in configuration
+
+[2025-02-17T17:19:39.685Z] [debug] Status of Deployment ingress-nginx-controller is "ready"
+
+[2025-02-17T17:19:39.685Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "ready"
+
+[2025-02-17T17:19:39.685Z] [verbose] [kubernetes] Resources ready
+
+[2025-02-17T17:19:39.685Z] [kubernetes] Resources ready
+
+[2025-02-17T17:19:39.686Z] Provider ready
+
+[2025-02-17T17:19:39.686Z] [verbose] resolve provider local-kubernetes is ready.
+
+[2025-02-17T17:19:39.687Z] Finished resolving providers (took 36.9 sec)
+
+[2025-02-17T17:19:39.687Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2025-02-17T17:19:39.687Z] Resolving actions and modules...
+
+[2025-02-17T17:19:39.689Z] [debug] Building graph from 3 action configs and 0 group configs
+
+[2025-02-17T17:19:39.689Z] [debug] Retained 3 configs
+
+[2025-02-17T17:19:39.703Z] [debug] Got 3 action configs without action filter
+
+[2025-02-17T17:19:39.703Z] [debug] Finding minimal roots for 1 paths
+
+[2025-02-17T17:19:39.707Z] [verbose] Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop
+  → Includes: (none)
+  → Excludes: (none)
+
+[2025-02-17T17:19:39.722Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen
+
+[2025-02-17T17:19:39.723Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize
+
+[2025-02-17T17:19:39.792Z] [verbose] Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.09 sec)
+
+[2025-02-17T17:19:39.793Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs
+
+[2025-02-17T17:19:39.793Z] [debug] Include globs: **/*
+
+[2025-02-17T17:19:39.793Z] [debug] No exclude globs
+
+[2025-02-17T17:19:39.793Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching
+
+[2025-02-17T17:19:39.795Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:19:39.796Z] [debug] Deploy type=kubernetes name=kirop-crd-manifests does not support syncing.
+
+[2025-02-17T17:19:39.813Z] Aborting because upstream dependency failed.
+
+[2025-02-17T17:19:39.813Z] Aborting because upstream dependency failed.
+
+[2025-02-17T17:19:39.815Z] Deploy type=kubernetes name=kirop is not deployed, cannot start sync.
+
+[2025-02-17T17:19:39.816Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:19:39.816Z] Could not start any syncs. Aborting.
+
+Actions: deploy.kirop
+
+[2025-02-17T17:19:39.817Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:19:39.819Z] [debug] resolve Build type=container name=kirop is ready.
+
+[2025-02-17T17:22:04.492Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2025-02-17T17:22:21.063Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running sync start command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:22:21.076Z] [verbose] Initializing Garden context for local (flagged for reload)
+
+[2025-02-17T17:22:21.076Z] [debug] Instance key: env=local
+
+[2025-02-17T17:22:21.084Z] Authorizing...
+
+[2025-02-17T17:22:21.085Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T17:22:21.085Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:22:21.085Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:22:21.089Z] [debug] Garden context updated for key env=local
+
+[2025-02-17T17:22:21.090Z] [verbose] Scanning project root at /home/marek/code/job_hunting
+  → Includes: **/*garden.y*ml
+  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2025-02-17T17:22:21.128Z] [verbose] Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)
+
+[2025-02-17T17:22:21.131Z] [debug] Scanned and found 3 actions, 0 workflows and 0 modules
+
+[2025-02-17T17:22:21.131Z] [debug] Watcher: Add 2 paths
+
+[2025-02-17T17:22:21.131Z] Resolving providers...
+
+[2025-02-17T17:22:21.166Z] Configuring provider...
+
+[2025-02-17T17:22:21.166Z] [debug] Configuring provider...
+
+[2025-02-17T17:22:21.167Z] [debug] Configuring provider...
+
+[2025-02-17T17:22:21.169Z] Provider configured
+
+[2025-02-17T17:22:21.169Z] [debug] Provider configured
+
+[2025-02-17T17:22:21.169Z] [debug] Provider configured
+
+[2025-02-17T17:22:21.171Z] Provider status cached
+
+[2025-02-17T17:22:21.171Z] [verbose] resolve provider exec is ready.
+
+[2025-02-17T17:22:21.172Z] [debug] Provider status cached
+
+[2025-02-17T17:22:21.172Z] [verbose] resolve provider container is ready.
+
+[2025-02-17T17:22:21.172Z] Configuring provider...
+
+[2025-02-17T17:22:21.173Z] [debug] Provider status cached
+
+[2025-02-17T17:22:21.173Z] [verbose] resolve provider templated is ready.
+
+[2025-02-17T17:22:21.200Z] Using current context: kind-kind
+
+[2025-02-17T17:22:21.201Z] Provider configured
+
+[2025-02-17T17:22:21.201Z] Preparing environment
+
+[2025-02-17T17:22:21.206Z] [debug] Found kind with the following version details kind v0.22.0 go1.22.1 linux/amd64
+
+[2025-02-17T17:22:21.225Z] [debug] Status of ingress controller: ready
+
+[2025-02-17T17:22:21.225Z] Provider ready
+
+[2025-02-17T17:22:21.226Z] [verbose] resolve provider local-kubernetes is ready.
+
+[2025-02-17T17:22:21.226Z] Finished resolving providers (took 0.1 sec)
+
+[2025-02-17T17:22:21.226Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2025-02-17T17:22:21.227Z] Resolving actions and modules...
+
+[2025-02-17T17:22:21.227Z] [debug] Building graph from 3 action configs and 0 group configs
+
+[2025-02-17T17:22:21.227Z] [debug] Retained 3 configs
+
+[2025-02-17T17:22:21.230Z] [debug] Got 3 action configs without action filter
+
+[2025-02-17T17:22:21.230Z] [debug] Finding minimal roots for 1 paths
+
+[2025-02-17T17:22:21.234Z] [verbose] Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop
+  → Includes: (none)
+  → Excludes: (none)
+
+[2025-02-17T17:22:21.248Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen
+
+[2025-02-17T17:22:21.248Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize
+
+[2025-02-17T17:22:21.289Z] [verbose] Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.06 sec)
+
+[2025-02-17T17:22:21.290Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs
+
+[2025-02-17T17:22:21.290Z] [debug] Include globs: **/*
+
+[2025-02-17T17:22:21.290Z] [debug] No exclude globs
+
+[2025-02-17T17:22:21.290Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching
+
+[2025-02-17T17:22:21.291Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:22:21.291Z] [debug] Deploy type=kubernetes name=kirop-crd-manifests does not support syncing.
+
+[2025-02-17T17:22:21.300Z] [debug] resolve Build type=container name=kirop is ready.
+
+[2025-02-17T17:22:21.300Z] [debug] resolve Deploy type=kubernetes name=kirop-crd-manifests is ready.
+
+[2025-02-17T17:22:21.303Z] [debug] resolve Deploy type=kubernetes name=kirop is ready.
+
+[2025-02-17T17:22:21.315Z] [debug] Kubernetes: Getting API resource info for group v1
+
+[2025-02-17T17:22:21.324Z] Deploy type=kubernetes name=kirop is not deployed, cannot start sync.
+
+[2025-02-17T17:22:21.324Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:22:21.324Z] Could not start any syncs. Aborting.
+
+Actions: deploy.kirop
+
+[2025-02-17T17:22:21.324Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:27:09.941Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running build command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:27:09.958Z] Resolving actions and modules...
+
+[2025-02-17T17:27:09.983Z] [debug] Building graph from 3 action configs and 0 group configs
+
+[2025-02-17T17:27:09.983Z] [debug] Retained 3 configs
+
+[2025-02-17T17:27:09.986Z] [debug] Got 3 action configs without action filter
+
+[2025-02-17T17:27:09.986Z] [debug] Finding minimal roots for 1 paths
+
+[2025-02-17T17:27:09.987Z] [verbose] Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop
+  → Includes: (none)
+  → Excludes: (none)
+
+[2025-02-17T17:27:10.001Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen
+
+[2025-02-17T17:27:10.001Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize
+
+[2025-02-17T17:27:10.036Z] [verbose] Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.05 sec)
+
+[2025-02-17T17:27:10.037Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs
+
+[2025-02-17T17:27:10.037Z] [debug] Include globs: **/*
+
+[2025-02-17T17:27:10.037Z] [debug] No exclude globs
+
+[2025-02-17T17:27:10.037Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching
+
+[2025-02-17T17:27:10.038Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:27:10.041Z] [debug] resolve Build type=container name=kirop is ready.
+
+[2025-02-17T17:27:10.042Z] Getting status for Build kirop (type container) at version v-e657f6b9e8...
+
+[2025-02-17T17:27:10.043Z] [debug] Checking if image kirop:v-36733f3f3b has been loaded into kind cluster
+
+[2025-02-17T17:27:10.280Z] [debug] Image kirop:v-36733f3f3b is not in kind cluster
+
+[2025-02-17T17:27:10.281Z] Status is not ready, kirop will be built
+
+[2025-02-17T17:27:10.282Z] Building kirop (type container) at version v-e657f6b9e8...
+
+[2025-02-17T17:27:10.283Z] [verbose] Syncing sources (57 files)...
+
+[2025-02-17T17:27:10.285Z] [debug] Syncing 57 files from kirop to .garden/build/kirop (and removing any extraneous files)
+
+[2025-02-17T17:27:10.308Z] [verbose] Done syncing sources (took 0.3 sec)
+
+[2025-02-17T17:27:10.328Z] Building kirop:v-36733f3f3b...
+
+[2025-02-17T17:27:10.329Z] Fetching docker 27.1.1...
+
+[2025-02-17T17:27:10.329Z] [debug] Downloading https://download.docker.com/linux/static/stable/x86_64/docker-27.1.1.tgz...
+
+[2025-02-17T17:27:13.841Z] [debug] Done (took 3.5 sec)
+
+[2025-02-17T17:27:13.841Z] Fetched docker 27.1.1 (took 3.5 sec)
+
+[2025-02-17T17:27:13.841Z] [debug] Spawning '/home/marek/.garden/tools/docker/2a4740635b268a11/docker/docker buildx build --build-arg GARDEN_MODULE_VERSION=v-36733f3f3b --build-arg GARDEN_ACTION_VERSION=v-36733f3f3b --tag kirop:v-36733f3f3b --file /home/marek/code/job_hunting/.garden/build/kirop/Dockerfile /home/marek/code/job_hunting/.garden/build/kirop' in /home/marek/code/job_hunting/.garden/build/kirop
+
+[2025-02-17T17:27:14.150Z] [verbose] [docker build] #0 building with "default" instance using docker driver
+
+[2025-02-17T17:27:14.150Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:14.150Z] [verbose] [docker build] #1 [internal] load build definition from Dockerfile
+
+[2025-02-17T17:27:14.150Z] [verbose] [docker build] #1 transferring dockerfile: 1.30kB done
+
+[2025-02-17T17:27:14.150Z] [verbose] [docker build] #1 DONE 0.0s
+
+[2025-02-17T17:27:14.150Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:14.151Z] [verbose] [docker build] #2 [internal] load metadata for docker.io/library/golang:1.23
+
+[2025-02-17T17:27:14.499Z] [verbose] [docker build] #2 ...
+
+[2025-02-17T17:27:14.500Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:14.500Z] [verbose] [docker build] #3 [auth] library/golang:pull token for registry-1.docker.io
+
+[2025-02-17T17:27:14.500Z] [verbose] [docker build] #3 DONE 0.0s
+
+[2025-02-17T17:27:14.649Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:14.649Z] [verbose] [docker build] #4 [internal] load metadata for gcr.io/distroless/static:nonroot
+
+[2025-02-17T17:27:15.543Z] [verbose] [docker build] #4 DONE 1.5s
+
+[2025-02-17T17:27:15.543Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:15.543Z] [verbose] [docker build] #2 [internal] load metadata for docker.io/library/golang:1.23
+
+[2025-02-17T17:27:15.737Z] [verbose] [docker build] #2 DONE 1.7s
+
+[2025-02-17T17:27:15.840Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:15.840Z] [verbose] [docker build] #5 [internal] load .dockerignore
+
+[2025-02-17T17:27:15.840Z] [verbose] [docker build] #5 transferring context: 171B done
+
+[2025-02-17T17:27:15.840Z] [verbose] [docker build] #5 DONE 0.0s
+
+[2025-02-17T17:27:15.840Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:15.840Z] [verbose] [docker build] #6 [builder 1/9] FROM docker.io/library/golang:1.23@sha256:77a21b3e354c03e9f66b13bc39f4f0db8085c70f8414406af66b29c6d6c4dd85
+
+[2025-02-17T17:27:15.841Z] [verbose] [docker build] #6 resolve docker.io/library/golang:1.23@sha256:77a21b3e354c03e9f66b13bc39f4f0db8085c70f8414406af66b29c6d6c4dd85 0.0s done
+
+[2025-02-17T17:27:15.948Z] [verbose] [docker build] #6 sha256:77a21b3e354c03e9f66b13bc39f4f0db8085c70f8414406af66b29c6d6c4dd85 10.06kB / 10.06kB done
+
+[2025-02-17T17:27:15.948Z] [verbose] [docker build] #6 sha256:e36fd3af78f13fb7fd27a16ec62370968ecbe113c1dd026c188162109b34c1a3 2.32kB / 2.32kB done
+
+[2025-02-17T17:27:15.948Z] [verbose] [docker build] #6 sha256:9dc5a72b2e895c3a721087870c20d04c72aa64e75a56b82e39caae3dc27c5846 2.80kB / 2.80kB done
+
+[2025-02-17T17:27:15.948Z] [verbose] [docker build] #6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 0B / 24.06MB 0.1s
+
+[2025-02-17T17:27:16.048Z] [verbose] [docker build] #6 ...
+
+[2025-02-17T17:27:16.049Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:16.049Z] [verbose] [docker build] #7 [internal] load build context
+
+[2025-02-17T17:27:16.049Z] [verbose] [docker build] #7 transferring context: 62.77kB done
+
+[2025-02-17T17:27:16.049Z] [verbose] [docker build] #7 DONE 0.1s
+
+[2025-02-17T17:27:16.049Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:16.049Z] [verbose] [docker build] #6 [builder 1/9] FROM docker.io/library/golang:1.23@sha256:77a21b3e354c03e9f66b13bc39f4f0db8085c70f8414406af66b29c6d6c4dd85
+
+[2025-02-17T17:27:16.049Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 0B / 48.48MB 0.2s
+
+[2025-02-17T17:27:16.049Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 0B / 64.39MB 0.2s
+
+[2025-02-17T17:27:16.648Z] [verbose] [docker build] #6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 3.15MB / 24.06MB 0.8s
+
+[2025-02-17T17:27:16.748Z] [verbose] [docker build] #6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 6.29MB / 24.06MB 0.9s
+
+[2025-02-17T17:27:16.948Z] [verbose] [docker build] #6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 10.49MB / 24.06MB 1.1s
+
+[2025-02-17T17:27:16.948Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 6.29MB / 48.48MB 1.1s
+
+[2025-02-17T17:27:17.048Z] [verbose] [docker build] #6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 13.63MB / 24.06MB 1.2s
+
+[2025-02-17T17:27:17.048Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 9.44MB / 48.48MB 1.2s
+
+[2025-02-17T17:27:17.148Z] [verbose] [docker build] #6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 16.78MB / 24.06MB 1.3s
+
+[2025-02-17T17:27:17.148Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 12.58MB / 48.48MB 1.3s
+
+[2025-02-17T17:27:17.348Z] [verbose] [docker build] #6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 22.02MB / 24.06MB 1.5s
+
+[2025-02-17T17:27:17.348Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 17.83MB / 48.48MB 1.5s
+
+[2025-02-17T17:27:17.348Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 6.29MB / 64.39MB 1.5s
+
+[2025-02-17T17:27:17.548Z] [verbose] [docker build] #6 sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 24.06MB / 24.06MB 1.6s done
+
+[2025-02-17T17:27:17.548Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 24.12MB / 48.48MB 1.7s
+
+[2025-02-17T17:27:17.548Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 11.53MB / 64.39MB 1.7s
+
+[2025-02-17T17:27:17.548Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 0B / 92.33MB 1.7s
+
+[2025-02-17T17:27:17.648Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 28.31MB / 48.48MB 1.8s
+
+[2025-02-17T17:27:17.848Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 33.55MB / 48.48MB 2.0s
+
+[2025-02-17T17:27:17.849Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 19.92MB / 64.39MB 2.0s
+
+[2025-02-17T17:27:18.048Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 37.75MB / 48.48MB 2.2s
+
+[2025-02-17T17:27:18.048Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 24.12MB / 64.39MB 2.2s
+
+[2025-02-17T17:27:18.148Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 40.89MB / 48.48MB 2.3s
+
+[2025-02-17T17:27:18.148Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 7.34MB / 92.33MB 2.3s
+
+[2025-02-17T17:27:18.448Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 48.23MB / 48.48MB 2.6s
+
+[2025-02-17T17:27:18.448Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 33.55MB / 64.39MB 2.6s
+
+[2025-02-17T17:27:18.448Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 13.63MB / 92.33MB 2.6s
+
+[2025-02-17T17:27:18.617Z] [verbose] [docker build] #6 sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 48.48MB / 48.48MB 2.6s done
+
+[2025-02-17T17:27:18.617Z] [verbose] [docker build] #6 extracting sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 0.1s
+
+[2025-02-17T17:27:18.617Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 0B / 74.05MB 2.7s
+
+[2025-02-17T17:27:18.723Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 39.85MB / 64.39MB 2.8s
+
+[2025-02-17T17:27:18.723Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 18.87MB / 92.33MB 2.8s
+
+[2025-02-17T17:27:18.940Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 45.09MB / 64.39MB 3.0s
+
+[2025-02-17T17:27:19.041Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 25.17MB / 92.33MB 3.1s
+
+[2025-02-17T17:27:19.042Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 4.19MB / 74.05MB 3.1s
+
+[2025-02-17T17:27:19.144Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 49.28MB / 64.39MB 3.2s
+
+[2025-02-17T17:27:19.248Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 54.53MB / 64.39MB 3.4s
+
+[2025-02-17T17:27:19.248Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 31.46MB / 92.33MB 3.4s
+
+[2025-02-17T17:27:19.248Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 10.49MB / 74.05MB 3.4s
+
+[2025-02-17T17:27:19.448Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 58.72MB / 64.39MB 3.6s
+
+[2025-02-17T17:27:19.448Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 36.70MB / 92.33MB 3.6s
+
+[2025-02-17T17:27:19.448Z] [verbose] [docker build] #6 extracting sha256:a492eee5e55976c7d3feecce4c564aaf6f14fb07fdc5019d06f4154eddc93fde 0.9s done
+
+[2025-02-17T17:27:19.448Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 15.73MB / 74.05MB 3.6s
+
+[2025-02-17T17:27:19.579Z] [verbose] [docker build] #6 extracting sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 0.1s
+
+[2025-02-17T17:27:19.681Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 62.91MB / 64.39MB 3.8s
+
+[2025-02-17T17:27:19.681Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 20.97MB / 74.05MB 3.8s
+
+[2025-02-17T17:27:19.848Z] [verbose] [docker build] #6 sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 64.39MB / 64.39MB 3.8s done
+
+[2025-02-17T17:27:19.848Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 47.19MB / 92.33MB 4.0s
+
+[2025-02-17T17:27:19.848Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 27.26MB / 74.05MB 4.0s
+
+[2025-02-17T17:27:19.848Z] [verbose] [docker build] #6 extracting sha256:32b550be6cb62359a0f3a96bc0dc289f8b45d097eaad275887f163c6780b4108 0.3s done
+
+[2025-02-17T17:27:19.848Z] [verbose] [docker build] #6 sha256:eb54fd7982a88fa78ada6fd77866de8386d3829004b0f2eca8e9b9b20e44db8b 0B / 126B 4.0s
+
+[2025-02-17T17:27:19.963Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 31.46MB / 74.05MB 4.1s
+
+[2025-02-17T17:27:19.963Z] [verbose] [docker build] #6 extracting sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772
+
+[2025-02-17T17:27:20.069Z] [verbose] [docker build] #6 sha256:eb54fd7982a88fa78ada6fd77866de8386d3829004b0f2eca8e9b9b20e44db8b 126B / 126B 4.1s done
+
+[2025-02-17T17:27:20.069Z] [verbose] [docker build] #6 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0B / 32B 4.2s
+
+[2025-02-17T17:27:20.170Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 54.53MB / 92.33MB 4.3s
+
+[2025-02-17T17:27:20.170Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 38.80MB / 74.05MB 4.3s
+
+[2025-02-17T17:27:20.380Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 60.82MB / 92.33MB 4.5s
+
+[2025-02-17T17:27:20.380Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 45.09MB / 74.05MB 4.5s
+
+[2025-02-17T17:27:20.498Z] [verbose] [docker build] #6 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 4.5s done
+
+[2025-02-17T17:27:20.607Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 66.06MB / 92.33MB 4.7s
+
+[2025-02-17T17:27:20.607Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 50.33MB / 74.05MB 4.7s
+
+[2025-02-17T17:27:20.824Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 72.35MB / 92.33MB 4.9s
+
+[2025-02-17T17:27:20.824Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 55.57MB / 74.05MB 4.9s
+
+[2025-02-17T17:27:20.931Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 59.77MB / 74.05MB 5.0s
+
+[2025-02-17T17:27:21.038Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 77.59MB / 92.33MB 5.1s
+
+[2025-02-17T17:27:21.148Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 84.93MB / 92.33MB 5.3s
+
+[2025-02-17T17:27:21.148Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 69.21MB / 74.05MB 5.3s
+
+[2025-02-17T17:27:21.248Z] [verbose] [docker build] #6 extracting sha256:35af2a7690f2b43e7237d1fae8e3f2350dfb25f3249e9cf65121866f9c56c772 1.2s done
+
+[2025-02-17T17:27:21.349Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 92.33MB / 92.33MB 5.5s
+
+[2025-02-17T17:27:21.349Z] [verbose] [docker build] #6 sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 74.05MB / 74.05MB 5.5s done
+
+[2025-02-17T17:27:21.451Z] [verbose] [docker build] #6 sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 92.33MB / 92.33MB 5.5s done
+
+[2025-02-17T17:27:21.451Z] [verbose] [docker build] #6 extracting sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b
+
+[2025-02-17T17:27:22.951Z] [verbose] [docker build] #6 extracting sha256:04c5b2c7e8c9fe55da2c1b8cc238ba47ce679c78999f75b92ba3c05984e0b64b 1.4s done
+
+[2025-02-17T17:27:23.074Z] [verbose] [docker build] #6 extracting sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 0.1s
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #6 ...
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 [stage-1 1/3] FROM gcr.io/distroless/static:nonroot@sha256:6ec5aa99dc335666e79dc64e4a6c8b89c33a543a1967f20d360922a80dd21f02
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 resolve gcr.io/distroless/static:nonroot@sha256:6ec5aa99dc335666e79dc64e4a6c8b89c33a543a1967f20d360922a80dd21f02 0.1s done
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 sha256:e855cfad87387db4658f58f72e09f243bdb58f0697e0535d371092d8c03dfd82 1.95kB / 1.95kB done
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 sha256:6ec5aa99dc335666e79dc64e4a6c8b89c33a543a1967f20d360922a80dd21f02 1.51kB / 1.51kB done
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 sha256:78934ebb7677a50757f2e7e65c2807ed8e488ea50d63462520889fa30c4a6b2c 1.50kB / 1.50kB done
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 sha256:688513194d7a0f0d77e4a3692748d21c4ccd1af6a5ff9012f18f053ed9573c13 104.24kB / 104.24kB 5.3s done
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 extracting sha256:688513194d7a0f0d77e4a3692748d21c4ccd1af6a5ff9012f18f053ed9573c13 0.0s done
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 sha256:bfb59b82a9b65e47d485e53b3e815bca3b3e21a095bd0cb88ced9ac0b48062bf 13.36kB / 13.36kB 5.9s done
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 sha256:efa9d1d5d3a286c60a7261496166fdf31cec2284dafe7eef7cda89eba2f675d6 541.99kB / 541.99kB 6.2s done
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 sha256:a62778643d563b511190663ef9a77c30d46d282facfdce4f3a7aecc03423c1f3 67B / 67B 5.9s done
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 extracting sha256:bfb59b82a9b65e47d485e53b3e815bca3b3e21a095bd0cb88ced9ac0b48062bf 0.0s done
+
+[2025-02-17T17:27:23.629Z] [verbose] [docker build] #8 sha256:7c12895b777bcaa8ccae0605b4de635b68fc32d60fa08f421dc3818bf55ee212 188B / 188B 6.2s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 sha256:3214acf345c0cc6bbdb56b698a41ccdefc624a09d6beb0d38b5de0b2303ecaf4 123B / 123B 6.3s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 extracting sha256:efa9d1d5d3a286c60a7261496166fdf31cec2284dafe7eef7cda89eba2f675d6 0.2s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 sha256:0bab15eea81d0fe6ab56ebf5fba14e02c4c1775a7f7436fbddd3505add4e18fa 93B / 93B 6.5s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 sha256:5664b15f108bf9436ce3312090a767300800edbbfd4511aa1a6d64357024d5dd 168B / 168B 6.5s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 sha256:4aa0ea1413d37a58615488592a0b827ea4b2e48fa5a77cf707d0e35f025e613f 385B / 385B 6.6s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 extracting sha256:a62778643d563b511190663ef9a77c30d46d282facfdce4f3a7aecc03423c1f3 0.0s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 extracting sha256:7c12895b777bcaa8ccae0605b4de635b68fc32d60fa08f421dc3818bf55ee212 0.0s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 sha256:9aee425378d2c16cd44177dc54a274b312897f5860a8e78fdfda555a0d79dd71 130.50kB / 130.50kB 7.3s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 sha256:da7816fa955ea24533c388143c78804c28682eef99b4ee3723b548c70148bba6 321B / 321B 6.8s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 extracting sha256:3214acf345c0cc6bbdb56b698a41ccdefc624a09d6beb0d38b5de0b2303ecaf4 0.0s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 extracting sha256:5664b15f108bf9436ce3312090a767300800edbbfd4511aa1a6d64357024d5dd 0.0s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 extracting sha256:0bab15eea81d0fe6ab56ebf5fba14e02c4c1775a7f7436fbddd3505add4e18fa 0.0s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 extracting sha256:4aa0ea1413d37a58615488592a0b827ea4b2e48fa5a77cf707d0e35f025e613f 0.0s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 extracting sha256:da7816fa955ea24533c388143c78804c28682eef99b4ee3723b548c70148bba6 0.0s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 extracting sha256:9aee425378d2c16cd44177dc54a274b312897f5860a8e78fdfda555a0d79dd71 0.0s done
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #8 DONE 7.7s
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:23.630Z] [verbose] [docker build] #6 [builder 1/9] FROM docker.io/library/golang:1.23@sha256:77a21b3e354c03e9f66b13bc39f4f0db8085c70f8414406af66b29c6d6c4dd85
+
+[2025-02-17T17:27:25.033Z] [verbose] [docker build] #6 extracting sha256:dd968b00abc2f44f5d74b014d2b833a05dd020b5f534f19dca853c409df33466 2.1s done
+
+[2025-02-17T17:27:25.226Z] [verbose] [docker build] #6 extracting sha256:eb54fd7982a88fa78ada6fd77866de8386d3829004b0f2eca8e9b9b20e44db8b
+
+[2025-02-17T17:27:25.469Z] [verbose] [docker build] #6 extracting sha256:eb54fd7982a88fa78ada6fd77866de8386d3829004b0f2eca8e9b9b20e44db8b 0.0s done
+
+[2025-02-17T17:27:25.469Z] [verbose] [docker build] #6 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.0s done
+
+[2025-02-17T17:27:25.563Z] [verbose] [docker build] #6 DONE 9.8s
+
+[2025-02-17T17:27:25.712Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:25.712Z] [verbose] [docker build] #9 [builder 2/9] WORKDIR /workspace
+
+[2025-02-17T17:27:25.712Z] [verbose] [docker build] #9 DONE 0.1s
+
+[2025-02-17T17:27:25.713Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:25.713Z] [verbose] [docker build] #10 [builder 3/9] COPY go.mod go.mod
+
+[2025-02-17T17:27:25.713Z] [verbose] [docker build] #10 DONE 0.1s
+
+[2025-02-17T17:27:25.952Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:25.952Z] [verbose] [docker build] #11 [builder 4/9] COPY go.sum go.sum
+
+[2025-02-17T17:27:25.952Z] [verbose] [docker build] #11 DONE 0.1s
+
+[2025-02-17T17:27:25.952Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:25.952Z] [verbose] [docker build] #12 [builder 5/9] RUN go mod download
+
+[2025-02-17T17:27:41.189Z] [verbose] [docker build] #12 DONE 15.4s
+
+[2025-02-17T17:27:41.376Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:41.376Z] [verbose] [docker build] #13 [builder 6/9] COPY cmd/main.go cmd/main.go
+
+[2025-02-17T17:27:41.376Z] [verbose] [docker build] #13 DONE 0.1s
+
+[2025-02-17T17:27:41.376Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:41.376Z] [verbose] [docker build] #14 [builder 7/9] COPY api/ api/
+
+[2025-02-17T17:27:41.376Z] [verbose] [docker build] #14 DONE 0.1s
+
+[2025-02-17T17:27:41.620Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:41.621Z] [verbose] [docker build] #15 [builder 8/9] COPY internal/ internal/
+
+[2025-02-17T17:27:41.621Z] [verbose] [docker build] #15 DONE 0.1s
+
+[2025-02-17T17:27:41.621Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:41.621Z] [verbose] [docker build] #16 [builder 9/9] RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -o manager cmd/main.go
+
+[2025-02-17T17:27:54.300Z] [verbose] [docker build] #16 DONE 12.8s
+
+[2025-02-17T17:27:54.457Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:54.457Z] [verbose] [docker build] #17 [stage-1 2/3] COPY --from=builder /workspace/manager .
+
+[2025-02-17T17:27:54.457Z] [verbose] [docker build] #17 DONE 0.1s
+
+[2025-02-17T17:27:54.616Z] [verbose] [docker build] 
+
+[2025-02-17T17:27:54.616Z] [verbose] [docker build] #18 exporting to image
+
+[2025-02-17T17:27:54.616Z] [verbose] [docker build] #18 exporting layers
+
+[2025-02-17T17:27:55.036Z] [verbose] [docker build] #18 exporting layers 0.6s done
+
+[2025-02-17T17:27:55.189Z] [verbose] [docker build] #18 writing image sha256:55b140058afe3a41e9f2d3a7a9ab50061c27b637b7ae87a0d7dda444aee1dccd done
+
+[2025-02-17T17:27:55.189Z] [verbose] [docker build] #18 naming to docker.io/library/kirop:v-36733f3f3b 0.0s done
+
+[2025-02-17T17:27:55.189Z] [verbose] [docker build] #18 DONE 0.6s
+
+[2025-02-17T17:27:55.192Z] [debug] Loading image kirop:v-36733f3f3b into kind cluster
+
+[2025-02-17T17:27:57.226Z] Done (took 46.9 sec)
+
+[2025-02-17T17:27:57.226Z] [verbose] Build type=container name=kirop is ready.
+
+[2025-02-17T17:27:57.278Z] Done! 
+
+[2025-02-17T17:27:57.279Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:27:57.330Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Command build completed successfully! ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:28:11.595Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:28:11.614Z] Resolving actions and modules...
+
+[2025-02-17T17:28:11.642Z] [debug] Building graph from 3 action configs and 0 group configs
+
+[2025-02-17T17:28:11.642Z] [debug] Retained 3 configs
+
+[2025-02-17T17:28:11.644Z] [debug] Got 3 action configs without action filter
+
+[2025-02-17T17:28:11.644Z] [debug] Finding minimal roots for 1 paths
+
+[2025-02-17T17:28:11.645Z] [verbose] Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop
+  → Includes: (none)
+  → Excludes: (none)
+
+[2025-02-17T17:28:11.662Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen
+
+[2025-02-17T17:28:11.662Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize
+
+[2025-02-17T17:28:11.697Z] [verbose] Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.05 sec)
+
+[2025-02-17T17:28:11.697Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs
+
+[2025-02-17T17:28:11.697Z] [debug] Include globs: **/*
+
+[2025-02-17T17:28:11.697Z] [debug] No exclude globs
+
+[2025-02-17T17:28:11.698Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching
+
+[2025-02-17T17:28:11.699Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:28:11.704Z] [debug] resolve Deploy type=kubernetes name=kirop-crd-manifests is ready.
+
+[2025-02-17T17:28:11.705Z] Getting status for Deploy kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...
+
+[2025-02-17T17:28:11.705Z] [debug] resolve Build type=container name=kirop is ready.
+
+[2025-02-17T17:28:11.709Z] [debug] resolve Deploy type=kubernetes name=kirop is ready.
+
+[2025-02-17T17:28:11.709Z] Getting status for Deploy kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:28:11.716Z] Status is missing, kirop-crd-manifests will be deployed
+
+[2025-02-17T17:28:11.716Z] Deploying kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...
+
+[2025-02-17T17:28:11.718Z] Status is missing, kirop will be deployed
+
+[2025-02-17T17:28:11.719Z] Getting status for Build kirop (type container) at version v-e657f6b9e8...
+
+[2025-02-17T17:28:11.719Z] [debug] Checking if image kirop:v-36733f3f3b has been loaded into kind cluster
+
+[2025-02-17T17:28:11.723Z] Fetching kustomize-5 5.4.2...
+
+[2025-02-17T17:28:11.723Z] [debug] Downloading https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv5.4.2/kustomize_v5.4.2_linux_amd64.tar.gz...
+
+[2025-02-17T17:28:11.768Z] [debug] Image kirop:v-36733f3f3b has been loaded into kind cluster
+
+[2025-02-17T17:28:11.768Z] Already built
+
+[2025-02-17T17:28:11.768Z] [verbose] Build type=container name=kirop status is ready.
+
+[2025-02-17T17:28:13.765Z] [debug] Done (took 2 sec)
+
+[2025-02-17T17:28:13.765Z] Fetched kustomize-5 5.4.2 (took 2 sec)
+
+[2025-02-17T17:28:13.776Z] [debug] Kubernetes: Getting API resource info for group apiextensions.k8s.io/v1
+
+[2025-02-17T17:28:13.867Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:28:13.867Z] [verbose] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:28:15.875Z] [debug] Status of CustomResourceDefinition trees.tree.nullcloud.io is "ready"
+
+[2025-02-17T17:28:15.875Z] [verbose] [kubernetes] Status of CustomResourceDefinition trees.tree.nullcloud.io is "ready"
+
+[2025-02-17T17:28:15.875Z] [debug] Status of ConfigMap garden-meta-deploy-kirop-crd-manifests is "ready"
+
+[2025-02-17T17:28:15.875Z] [verbose] [kubernetes] Status of ConfigMap garden-meta-deploy-kirop-crd-manifests is "ready"
+
+[2025-02-17T17:28:15.875Z] [verbose] [kubernetes] Resources ready
+
+[2025-02-17T17:28:15.875Z] [kubernetes] Resources ready
+
+[2025-02-17T17:28:15.886Z] Done (took 4.2 sec)
+
+[2025-02-17T17:28:15.886Z] [verbose] Deploy type=kubernetes name=kirop-crd-manifests is ready.
+
+[2025-02-17T17:28:15.887Z] Deploying kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:28:15.910Z] A patch is defined for a Kubernetes Deployment with name controller-manager but no Kubernetes resource with a corresponding kind and name found.
+
+[2025-02-17T17:28:15.910Z] [debug] Kubernetes: Getting API resource info for group rbac.authorization.k8s.io/v1
+
+[2025-02-17T17:28:15.969Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:28:15.969Z] [verbose] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:28:17.975Z] [debug] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:28:17.975Z] [verbose] [kubernetes] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:28:17.975Z] [verbose] [kubernetes] Resources ready
+
+[2025-02-17T17:28:17.975Z] [kubernetes] Resources ready
+
+[2025-02-17T17:28:18.283Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:28:18.283Z] [verbose] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:28:20.348Z] [debug] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of CustomResourceDefinition trees.tree.nullcloud.io is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of CustomResourceDefinition trees.tree.nullcloud.io is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of ServiceAccount tree-operator-controller-manager is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of ServiceAccount tree-operator-controller-manager is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of Role tree-operator-leader-election-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of Role tree-operator-leader-election-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of ClusterRole tree-operator-manager-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-manager-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of ClusterRole tree-operator-metrics-auth-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-metrics-auth-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of ClusterRole tree-operator-metrics-reader is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-metrics-reader is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of ClusterRole tree-operator-tree-admin-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-tree-admin-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of ClusterRole tree-operator-tree-editor-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-tree-editor-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of ClusterRole tree-operator-tree-viewer-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-tree-viewer-role is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of RoleBinding tree-operator-leader-election-rolebinding is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of RoleBinding tree-operator-leader-election-rolebinding is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of ClusterRoleBinding tree-operator-manager-rolebinding is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of ClusterRoleBinding tree-operator-manager-rolebinding is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of Service tree-operator-controller-manager-metrics-service is "ready"
+
+[2025-02-17T17:28:20.349Z] [verbose] [kubernetes] Status of Service tree-operator-controller-manager-metrics-service is "ready"
+
+[2025-02-17T17:28:20.349Z] [debug] Status of Deployment tree-operator-controller-manager is "unhealthy"
+
+[2025-02-17T17:28:20.350Z] [verbose] [kubernetes] Status of Deployment tree-operator-controller-manager is "unhealthy"
+
+[2025-02-17T17:28:20.350Z] [verbose] [kubernetes] Error deploying deploy.kirop: Failed - Error: ImagePullBackOff
+
+━━━ Latest events from Deployment tree-operator-controller-manager ━━━
+Deployment tree-operator-controller-manager: ScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Scheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Pulling - Pulling image "controller:latest"
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Failed to pull image "controller:latest": failed to pull and unpack image "docker.io/library/controller:latest": failed to resolve reference "docker.io/library/controller:latest": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ErrImagePull
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: BackOff - Back-off pulling image "controller:latest"
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ImagePullBackOff
+
+
+[2025-02-17T17:28:20.350Z] Failed (took 4.5 sec)
+
+[2025-02-17T17:28:20.352Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:28:20.404Z] 1 requested deploy action(s) failed!
+
+[2025-02-17T17:28:20.404Z] 
+See .garden/error.log for detailed error message
+
+[2025-02-17T17:28:20.404Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:29:02.120Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2025-02-17T17:30:49.948Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:30:49.963Z] [verbose] Initializing Garden context for local (flagged for reload)
+
+[2025-02-17T17:30:49.964Z] [debug] Instance key: env=local
+
+[2025-02-17T17:30:49.973Z] Authorizing...
+
+[2025-02-17T17:30:49.974Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T17:30:49.974Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:30:49.974Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:30:49.980Z] [debug] Garden context updated for key env=local
+
+[2025-02-17T17:30:49.981Z] [verbose] Scanning project root at /home/marek/code/job_hunting
+  → Includes: **/*garden.y*ml
+  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2025-02-17T17:30:50.019Z] [verbose] Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)
+
+[2025-02-17T17:30:50.021Z] [debug] Scanned and found 3 actions, 0 workflows and 0 modules
+
+[2025-02-17T17:30:50.021Z] [debug] Watcher: Add 2 paths
+
+[2025-02-17T17:30:50.022Z] Resolving providers...
+
+[2025-02-17T17:30:50.047Z] Configuring provider...
+
+[2025-02-17T17:30:50.048Z] [debug] Configuring provider...
+
+[2025-02-17T17:30:50.048Z] [debug] Configuring provider...
+
+[2025-02-17T17:30:50.049Z] Provider configured
+
+[2025-02-17T17:30:50.050Z] [debug] Provider configured
+
+[2025-02-17T17:30:50.050Z] [debug] Provider configured
+
+[2025-02-17T17:30:50.051Z] Provider status cached
+
+[2025-02-17T17:30:50.051Z] [verbose] resolve provider exec is ready.
+
+[2025-02-17T17:30:50.052Z] [debug] Provider status cached
+
+[2025-02-17T17:30:50.052Z] [verbose] resolve provider container is ready.
+
+[2025-02-17T17:30:50.052Z] Configuring provider...
+
+[2025-02-17T17:30:50.053Z] [debug] Provider status cached
+
+[2025-02-17T17:30:50.053Z] [verbose] resolve provider templated is ready.
+
+[2025-02-17T17:30:50.080Z] Using current context: kind-kind
+
+[2025-02-17T17:30:50.080Z] Provider configured
+
+[2025-02-17T17:30:50.081Z] Preparing environment
+
+[2025-02-17T17:30:50.086Z] [debug] Found kind with the following version details kind v0.22.0 go1.22.1 linux/amd64
+
+[2025-02-17T17:30:50.106Z] [debug] Status of ingress controller: ready
+
+[2025-02-17T17:30:50.106Z] Provider ready
+
+[2025-02-17T17:30:50.107Z] [verbose] resolve provider local-kubernetes is ready.
+
+[2025-02-17T17:30:50.107Z] Finished resolving providers (took 0.1 sec)
+
+[2025-02-17T17:30:50.107Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2025-02-17T17:30:50.107Z] Resolving actions and modules...
+
+[2025-02-17T17:30:50.107Z] [debug] Building graph from 3 action configs and 0 group configs
+
+[2025-02-17T17:30:50.108Z] [debug] Retained 3 configs
+
+[2025-02-17T17:30:50.109Z] [debug] Got 3 action configs without action filter
+
+[2025-02-17T17:30:50.109Z] [debug] Finding minimal roots for 1 paths
+
+[2025-02-17T17:30:50.114Z] [verbose] Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop
+  → Includes: (none)
+  → Excludes: (none)
+
+[2025-02-17T17:30:50.132Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen
+
+[2025-02-17T17:30:50.133Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize
+
+[2025-02-17T17:30:50.167Z] [verbose] Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.05 sec)
+
+[2025-02-17T17:30:50.167Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs
+
+[2025-02-17T17:30:50.167Z] [debug] Include globs: **/*
+
+[2025-02-17T17:30:50.167Z] [debug] No exclude globs
+
+[2025-02-17T17:30:50.167Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching
+
+[2025-02-17T17:30:50.168Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:30:50.173Z] [debug] resolve Deploy type=kubernetes name=kirop-crd-manifests is ready.
+
+[2025-02-17T17:30:50.173Z] Getting status for Deploy kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...
+
+[2025-02-17T17:30:50.173Z] [debug] resolve Build type=container name=kirop is ready.
+
+[2025-02-17T17:30:50.176Z] [debug] resolve Deploy type=kubernetes name=kirop is ready.
+
+[2025-02-17T17:30:50.177Z] Getting status for Deploy kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:30:50.221Z] Already deployed
+
+[2025-02-17T17:30:50.221Z] [verbose] Deploy type=kubernetes name=kirop-crd-manifests status is ready.
+
+[2025-02-17T17:30:50.252Z] Status is unhealthy, kirop will be deployed
+
+[2025-02-17T17:30:50.253Z] Getting status for Build kirop (type container) at version v-e657f6b9e8...
+
+[2025-02-17T17:30:50.253Z] [debug] Checking if image kirop:v-36733f3f3b has been loaded into kind cluster
+
+[2025-02-17T17:30:50.308Z] [debug] Image kirop:v-36733f3f3b has been loaded into kind cluster
+
+[2025-02-17T17:30:50.309Z] Already built
+
+[2025-02-17T17:30:50.309Z] [verbose] Build type=container name=kirop status is ready.
+
+[2025-02-17T17:30:50.310Z] Deploying kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:30:50.330Z] A patch is defined for a Kubernetes Deployment with name controller-manager but no Kubernetes resource with a corresponding kind and name found.
+
+[2025-02-17T17:30:50.416Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:30:50.416Z] [verbose] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:30:52.427Z] [debug] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:30:52.427Z] [verbose] [kubernetes] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:30:52.427Z] [verbose] [kubernetes] Resources ready
+
+[2025-02-17T17:30:52.427Z] [kubernetes] Resources ready
+
+[2025-02-17T17:30:52.807Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:30:52.807Z] [verbose] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:30:54.863Z] [debug] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:30:54.863Z] [verbose] [kubernetes] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:30:54.863Z] [debug] Status of CustomResourceDefinition trees.tree.nullcloud.io is "ready"
+
+[2025-02-17T17:30:54.863Z] [verbose] [kubernetes] Status of CustomResourceDefinition trees.tree.nullcloud.io is "ready"
+
+[2025-02-17T17:30:54.863Z] [debug] Status of ServiceAccount tree-operator-controller-manager is "ready"
+
+[2025-02-17T17:30:54.863Z] [verbose] [kubernetes] Status of ServiceAccount tree-operator-controller-manager is "ready"
+
+[2025-02-17T17:30:54.863Z] [debug] Status of Role tree-operator-leader-election-role is "ready"
+
+[2025-02-17T17:30:54.863Z] [verbose] [kubernetes] Status of Role tree-operator-leader-election-role is "ready"
+
+[2025-02-17T17:30:54.863Z] [debug] Status of ClusterRole tree-operator-manager-role is "ready"
+
+[2025-02-17T17:30:54.863Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-manager-role is "ready"
+
+[2025-02-17T17:30:54.863Z] [debug] Status of ClusterRole tree-operator-metrics-auth-role is "ready"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-metrics-auth-role is "ready"
+
+[2025-02-17T17:30:54.864Z] [debug] Status of ClusterRole tree-operator-metrics-reader is "ready"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-metrics-reader is "ready"
+
+[2025-02-17T17:30:54.864Z] [debug] Status of ClusterRole tree-operator-tree-admin-role is "ready"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-tree-admin-role is "ready"
+
+[2025-02-17T17:30:54.864Z] [debug] Status of ClusterRole tree-operator-tree-editor-role is "ready"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-tree-editor-role is "ready"
+
+[2025-02-17T17:30:54.864Z] [debug] Status of ClusterRole tree-operator-tree-viewer-role is "ready"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-tree-viewer-role is "ready"
+
+[2025-02-17T17:30:54.864Z] [debug] Status of RoleBinding tree-operator-leader-election-rolebinding is "ready"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Status of RoleBinding tree-operator-leader-election-rolebinding is "ready"
+
+[2025-02-17T17:30:54.864Z] [debug] Status of ClusterRoleBinding tree-operator-manager-rolebinding is "ready"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Status of ClusterRoleBinding tree-operator-manager-rolebinding is "ready"
+
+[2025-02-17T17:30:54.864Z] [debug] Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is "ready"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is "ready"
+
+[2025-02-17T17:30:54.864Z] [debug] Status of Service tree-operator-controller-manager-metrics-service is "ready"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Status of Service tree-operator-controller-manager-metrics-service is "ready"
+
+[2025-02-17T17:30:54.864Z] [debug] Status of Deployment tree-operator-controller-manager is "unhealthy"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Status of Deployment tree-operator-controller-manager is "unhealthy"
+
+[2025-02-17T17:30:54.864Z] [verbose] [kubernetes] Error deploying deploy.kirop: ImagePullBackOff - Back-off pulling image "controller:latest"
+
+━━━ Latest events from Deployment tree-operator-controller-manager ━━━
+Deployment tree-operator-controller-manager: ScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Scheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Pulling - Pulling image "controller:latest"
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Failed to pull image "controller:latest": failed to pull and unpack image "docker.io/library/controller:latest": failed to resolve reference "docker.io/library/controller:latest": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ErrImagePull
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: BackOff - Back-off pulling image "controller:latest"
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ImagePullBackOff
+
+
+[2025-02-17T17:30:54.864Z] Failed (took 4.6 sec)
+
+[2025-02-17T17:30:54.866Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:30:54.917Z] 1 requested deploy action(s) failed!
+
+[2025-02-17T17:30:54.917Z] 
+See .garden/error.log for detailed error message
+
+[2025-02-17T17:30:54.917Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:31:47.426Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2025-02-17T17:32:35.174Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:32:35.188Z] [verbose] Initializing Garden context for local (flagged for reload)
+
+[2025-02-17T17:32:35.188Z] [debug] Instance key: env=local
+
+[2025-02-17T17:32:35.200Z] Authorizing...
+
+[2025-02-17T17:32:35.200Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T17:32:35.200Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:32:35.200Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:32:35.206Z] [debug] Garden context updated for key env=local
+
+[2025-02-17T17:32:35.207Z] [verbose] Scanning project root at /home/marek/code/job_hunting
+  → Includes: **/*garden.y*ml
+  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2025-02-17T17:32:35.247Z] [verbose] Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)
+
+[2025-02-17T17:32:35.248Z] [debug] Scanned and found 3 actions, 0 workflows and 0 modules
+
+[2025-02-17T17:32:35.248Z] [debug] Watcher: Add 2 paths
+
+[2025-02-17T17:32:35.249Z] Resolving providers...
+
+[2025-02-17T17:32:35.268Z] Configuring provider...
+
+[2025-02-17T17:32:35.268Z] [debug] Configuring provider...
+
+[2025-02-17T17:32:35.268Z] [debug] Configuring provider...
+
+[2025-02-17T17:32:35.270Z] Provider configured
+
+[2025-02-17T17:32:35.270Z] [debug] Provider configured
+
+[2025-02-17T17:32:35.270Z] [debug] Provider configured
+
+[2025-02-17T17:32:35.272Z] Provider status cached
+
+[2025-02-17T17:32:35.272Z] [verbose] resolve provider exec is ready.
+
+[2025-02-17T17:32:35.272Z] [debug] Provider status cached
+
+[2025-02-17T17:32:35.272Z] [verbose] resolve provider container is ready.
+
+[2025-02-17T17:32:35.272Z] Configuring provider...
+
+[2025-02-17T17:32:35.273Z] [debug] Provider status cached
+
+[2025-02-17T17:32:35.273Z] [verbose] resolve provider templated is ready.
+
+[2025-02-17T17:32:35.302Z] Using current context: kind-kind
+
+[2025-02-17T17:32:35.303Z] Provider configured
+
+[2025-02-17T17:32:35.304Z] Preparing environment
+
+[2025-02-17T17:32:35.309Z] [debug] Found kind with the following version details kind v0.22.0 go1.22.1 linux/amd64
+
+[2025-02-17T17:32:35.328Z] [debug] Status of ingress controller: ready
+
+[2025-02-17T17:32:35.328Z] Provider ready
+
+[2025-02-17T17:32:35.328Z] [verbose] resolve provider local-kubernetes is ready.
+
+[2025-02-17T17:32:35.329Z] Finished resolving providers (took 0.1 sec)
+
+[2025-02-17T17:32:35.329Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2025-02-17T17:32:35.329Z] Resolving actions and modules...
+
+[2025-02-17T17:32:35.329Z] [debug] Building graph from 3 action configs and 0 group configs
+
+[2025-02-17T17:32:35.329Z] [debug] Retained 3 configs
+
+[2025-02-17T17:32:35.331Z] [debug] Got 3 action configs without action filter
+
+[2025-02-17T17:32:35.331Z] [debug] Finding minimal roots for 1 paths
+
+[2025-02-17T17:32:35.336Z] [verbose] Scanning Deploy action kirop-crd-manifests root at /home/marek/code/job_hunting/kirop
+  → Includes: (none)
+  → Excludes: (none)
+
+[2025-02-17T17:32:35.353Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/controller-gen
+
+[2025-02-17T17:32:35.353Z] [verbose] Ignoring symlink with absolute target at /home/marek/code/job_hunting/kirop/bin/kustomize
+
+[2025-02-17T17:32:35.390Z] [verbose] Found 58 files in Deploy action kirop-crd-manifests root /home/marek/code/job_hunting/kirop (took 0.05 sec)
+
+[2025-02-17T17:32:35.390Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop, filtering by 1 include and 0 exclude globs
+
+[2025-02-17T17:32:35.390Z] [debug] Include globs: **/*
+
+[2025-02-17T17:32:35.390Z] [debug] No exclude globs
+
+[2025-02-17T17:32:35.390Z] [debug] Found 58 files in path /home/marek/code/job_hunting/kirop after glob matching
+
+[2025-02-17T17:32:35.391Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:32:35.395Z] [debug] resolve Deploy type=kubernetes name=kirop-crd-manifests is ready.
+
+[2025-02-17T17:32:35.396Z] Getting status for Deploy kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...
+
+[2025-02-17T17:32:35.396Z] [debug] resolve Build type=container name=kirop is ready.
+
+[2025-02-17T17:32:35.399Z] [debug] resolve Deploy type=kubernetes name=kirop is ready.
+
+[2025-02-17T17:32:35.399Z] Getting status for Deploy kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:32:35.447Z] Already deployed
+
+[2025-02-17T17:32:35.447Z] [verbose] Deploy type=kubernetes name=kirop-crd-manifests status is ready.
+
+[2025-02-17T17:32:35.472Z] Status is unhealthy, kirop will be deployed
+
+[2025-02-17T17:32:35.473Z] Getting status for Build kirop (type container) at version v-e657f6b9e8...
+
+[2025-02-17T17:32:35.474Z] [debug] Checking if image kirop:v-36733f3f3b has been loaded into kind cluster
+
+[2025-02-17T17:32:35.538Z] [debug] Image kirop:v-36733f3f3b has been loaded into kind cluster
+
+[2025-02-17T17:32:35.539Z] Already built
+
+[2025-02-17T17:32:35.539Z] [verbose] Build type=container name=kirop status is ready.
+
+[2025-02-17T17:32:35.540Z] Deploying kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:32:35.560Z] A patch is defined for a Kubernetes Deployment with name controller-manager but no Kubernetes resource with a corresponding kind and name found.
+
+[2025-02-17T17:32:35.648Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:32:35.649Z] [verbose] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:32:37.655Z] [debug] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:32:37.655Z] [verbose] [kubernetes] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:32:37.655Z] [verbose] [kubernetes] Resources ready
+
+[2025-02-17T17:32:37.655Z] [kubernetes] Resources ready
+
+[2025-02-17T17:32:38.036Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:32:38.036Z] [verbose] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:32:40.091Z] [debug] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:32:40.091Z] [verbose] [kubernetes] Status of Namespace tree-operator-system is "ready"
+
+[2025-02-17T17:32:40.091Z] [debug] Status of CustomResourceDefinition trees.tree.nullcloud.io is "ready"
+
+[2025-02-17T17:32:40.091Z] [verbose] [kubernetes] Status of CustomResourceDefinition trees.tree.nullcloud.io is "ready"
+
+[2025-02-17T17:32:40.091Z] [debug] Status of ServiceAccount tree-operator-controller-manager is "ready"
+
+[2025-02-17T17:32:40.091Z] [verbose] [kubernetes] Status of ServiceAccount tree-operator-controller-manager is "ready"
+
+[2025-02-17T17:32:40.091Z] [debug] Status of Role tree-operator-leader-election-role is "ready"
+
+[2025-02-17T17:32:40.091Z] [verbose] [kubernetes] Status of Role tree-operator-leader-election-role is "ready"
+
+[2025-02-17T17:32:40.091Z] [debug] Status of ClusterRole tree-operator-manager-role is "ready"
+
+[2025-02-17T17:32:40.091Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-manager-role is "ready"
+
+[2025-02-17T17:32:40.091Z] [debug] Status of ClusterRole tree-operator-metrics-auth-role is "ready"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-metrics-auth-role is "ready"
+
+[2025-02-17T17:32:40.092Z] [debug] Status of ClusterRole tree-operator-metrics-reader is "ready"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-metrics-reader is "ready"
+
+[2025-02-17T17:32:40.092Z] [debug] Status of ClusterRole tree-operator-tree-admin-role is "ready"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-tree-admin-role is "ready"
+
+[2025-02-17T17:32:40.092Z] [debug] Status of ClusterRole tree-operator-tree-editor-role is "ready"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-tree-editor-role is "ready"
+
+[2025-02-17T17:32:40.092Z] [debug] Status of ClusterRole tree-operator-tree-viewer-role is "ready"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Status of ClusterRole tree-operator-tree-viewer-role is "ready"
+
+[2025-02-17T17:32:40.092Z] [debug] Status of RoleBinding tree-operator-leader-election-rolebinding is "ready"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Status of RoleBinding tree-operator-leader-election-rolebinding is "ready"
+
+[2025-02-17T17:32:40.092Z] [debug] Status of ClusterRoleBinding tree-operator-manager-rolebinding is "ready"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Status of ClusterRoleBinding tree-operator-manager-rolebinding is "ready"
+
+[2025-02-17T17:32:40.092Z] [debug] Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is "ready"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Status of ClusterRoleBinding tree-operator-metrics-auth-rolebinding is "ready"
+
+[2025-02-17T17:32:40.092Z] [debug] Status of Service tree-operator-controller-manager-metrics-service is "ready"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Status of Service tree-operator-controller-manager-metrics-service is "ready"
+
+[2025-02-17T17:32:40.092Z] [debug] Status of Deployment tree-operator-controller-manager is "unhealthy"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Status of Deployment tree-operator-controller-manager is "unhealthy"
+
+[2025-02-17T17:32:40.092Z] [verbose] [kubernetes] Error deploying deploy.kirop: ImagePullBackOff - Back-off pulling image "controller:latest"
+
+━━━ Latest events from Deployment tree-operator-controller-manager ━━━
+Deployment tree-operator-controller-manager: ScalingReplicaSet - Scaled up replica set tree-operator-controller-manager-5b5c67c9ff to 1
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Scheduled - Successfully assigned tree-operator-system/tree-operator-controller-manager-5b5c67c9ff-5fl8l to kind-control-plane
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Pulling - Pulling image "controller:latest"
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Failed to pull image "controller:latest": failed to pull and unpack image "docker.io/library/controller:latest": failed to resolve reference "docker.io/library/controller:latest": pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ErrImagePull
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: BackOff - Back-off pulling image "controller:latest"
+Pod tree-operator-controller-manager-5b5c67c9ff-5fl8l: Failed - Error: ImagePullBackOff
+
+
+[2025-02-17T17:32:40.092Z] Failed (took 4.6 sec)
+
+[2025-02-17T17:32:40.094Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:32:40.144Z] 1 requested deploy action(s) failed!
+
+[2025-02-17T17:32:40.144Z] 
+See .garden/error.log for detailed error message
+
+[2025-02-17T17:32:40.144Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:39:35.360Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2025-02-17T17:39:50.815Z] [verbose] Initializing Garden context for local (flagged for reload)
+
+[2025-02-17T17:39:50.815Z] [debug] Instance key: env=local
+
+[2025-02-17T17:39:50.827Z] Authorizing...
+
+[2025-02-17T17:39:50.827Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T17:39:50.827Z] [debug] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:39:50.828Z] [debug] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:39:50.833Z] [debug] Garden context updated for key env=local
+
+[2025-02-17T17:39:50.835Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:39:50.835Z] [debug] Done flushing all events and log entries.

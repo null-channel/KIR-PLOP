@@ -1,0 +1,39 @@
+kind: Build
+name: kirop
+type: container
+---
+kind: Deploy
+name: kirop-crd-manifests
+type: kubernetes
+spec:
+  kustomize:
+    path: ./config/crd/
+---
+kind: Deploy
+name: kirop 
+type: kubernetes
+dependencies: ["build.kirop", "deploy.kirop-crd-manifests"]
+spec:
+  kustomize:
+    path: ./config/default/
+
+  # Default target for syncs and exec commands
+  defaultTarget:
+    kind: Deployment
+    name: web
+  # Patch the K8s manifests for the api service so that we can set the correct image
+  patchResources:
+    - name: controller-manager
+      kind: Deployment
+      patch:
+        spec:
+          template:
+            spec:
+              containers:
+                - name: manager
+                  image: ${actions.build.kirop.outputs.deploymentImageId}
+  sync:
+    paths:
+      - sourcePath: ./
+        containerPath: /app/src
+

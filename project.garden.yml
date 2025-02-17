@@ -5,7 +5,7 @@ apiVersion: garden.io/v1
 kind: Project
 name: kir-flop
 
-defaultEnvironment: ephemeral
+defaultEnvironment: local
 
 variables:
   # use garden template strings to create a unique namespace for each user.

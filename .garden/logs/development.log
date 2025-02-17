@@ -6,3 +6,588 @@
 [2025-02-17T15:57:58.421Z] For more information about Garden configuration files, please check out
 https://docs.garden.io/using-garden/configuration-overview, and for a detailed reference, take a look at
 https://docs.garden.io/reference/project-config.
+
+[2025-02-17T16:22:36.051Z] Authorizing...
+
+[2025-02-17T16:22:36.108Z] Garden server has successfully started at port 9777
+
+
+[2025-02-17T16:22:41.561Z] Authorizing...
+
+[2025-02-17T16:22:41.562Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T16:22:41.562Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T16:22:41.635Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ help ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+Popular commands:
+
+  build              Perform your Builds.                                                            
+  deploy             Deploy actions to your environment.                                             
+  test               Run all or specified Test actions in the project.                               
+  run                Perform one or more Run actions                                                 
+  up                 Spin up your stack with the dev console and streaming logs.                     
+  logs               Retrieves the most recent logs for the specified Deploy(s).                     
+  sync start         Start any configured syncs to the given Deploy action(s).                       
+  sync status        Get sync statuses.                                                              
+  sync stop          Stop any active syncs to the given Deploy action(s).                            
+  exec               Executes a command (such as an interactive shell) in a running service.         
+  login              Log in to Garden Cloud.                                                         
+  logout             Log out of Garden Cloud.                                                        
+  quit               Exit the dev console.                                                           
+  reload             Reload the project and action/module configuration.                             
+  hide               Stop monitoring for logs for all or specified Deploy actions                    
+  log-level          Change the max log level of (future) printed logs in the console.               
+  cleanup deploy     Cleans up running deployments (or services if using modules).                   
+  cleanup namespace  Deletes a running namespace.                                                    
+  community          Join our community Discord to chat with us!                                     
+  create project     Create a new Garden project.                                                    
+  options            Print global options.                                                           
+  publish            Build and publish artifacts (e.g. container images) to a remote registry.       
+  self-update        Update the Garden CLI.                                                          
+  validate           Check your garden configuration for errors.                                     
+  workflow           Run a Workflow.                                                                 
+
+Other commands:
+
+  cloud groups list      List groups defined in Garden Cloud.                                        
+  cloud secrets create   Create secrets in Garden Cloud.                                             
+  cloud secrets delete   Delete secrets from Garden Cloud.                                           
+  cloud secrets list     List secrets defined in Garden Cloud.                                       
+  cloud secrets update   Update secrets in Garden Cloud                                              
+  cloud users create     Create users in Garden Cloud.                                               
+  cloud users delete     Delete users from Garden Cloud.                                             
+  cloud users list       List users defined in Garden Cloud.                                         
+  get actions            Outputs all or specified actions.                                           
+  get builds             Lists the build actions defined in your project.                            
+  get config             Outputs the full configuration for this project and environment.            
+  get debug-info         Outputs the status of your environment for debug purposes.                  
+  get deploys            Lists the deploy actions defined in your project.                           
+  get files              List all files from all or specified actions.                               
+  get graph              Outputs the dependency relationships across the project.                    
+  get linked-repos       Outputs a list of all linked remote sources, actions and modules for this   
+                         project.                                                                    
+  get modules            Outputs all or specified modules.                                           
+  get outputs            Resolves and returns the outputs of the project.                            
+  get run-result         Outputs the latest result of a run (or task, if using modules).             
+  get runs               Lists the run actions defined in your project.                              
+  get status             Outputs the full status of your project/environment and all actions.        
+  get test-result        Outputs the latest execution result of a provided test.                     
+  get tests              Lists the test actions defined in your project.                             
+  get workflows          Lists the workflows defined in your project.                                
+  link action            Link a remote action to a local directory.                                  
+  link module            Link a remote module to a local directory.                                  
+  link source            Link a remote source to a local directory.                                  
+  plugins                Plugin-specific commands.                                                   
+  sync restart           Restart any active syncs to the given Deploy action(s).                     
+  unlink action          Unlink a previously linked remote action from its local directory.          
+  unlink module          Unlink a previously linked remote module from its local directory.          
+  unlink source          Unlink a previously linked remote source from its local directory.          
+  update-remote actions  Update remote actions.                                                      
+  update-remote all      Update all remote sources, actions and modules.                             
+  update-remote modules  Update remote modules.                                                      
+  update-remote sources  Update remote sources.                                                      
+  util fetch-tools       Pre-fetch plugin tools.                                                     
+  util hide-warning      Hide a specific warning message.                                            
+  util mutagen           Run any Mutagen CLI command in the context of the current project.          
+  util profile-project   Renders a high-level summary of actions and modules in your project.        
+  version                Shows the current garden version.                                           
+
+Keys:
+
+  [tab]: auto-complete  [up/down]: command history  [ctrl-u]: clear line  [ctrl-d]: quit
+
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+
+[2025-02-17T16:29:39.869Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2025-02-17T16:35:44.375Z] Authorizing...
+
+[2025-02-17T17:08:03.831Z] Authorizing...
+
+[2025-02-17T17:08:03.890Z] Garden server has successfully started at port 9777
+
+
+[2025-02-17T17:08:08.239Z] Authorizing...
+
+[2025-02-17T17:08:08.239Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:08:08.240Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:08:08.315Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ help ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+Popular commands:
+
+  build              Perform your Builds.                                                            
+  deploy             Deploy actions to your environment.                                             
+  test               Run all or specified Test actions in the project.                               
+  run                Perform one or more Run actions                                                 
+  up                 Spin up your stack with the dev console and streaming logs.                     
+  logs               Retrieves the most recent logs for the specified Deploy(s).                     
+  sync start         Start any configured syncs to the given Deploy action(s).                       
+  sync status        Get sync statuses.                                                              
+  sync stop          Stop any active syncs to the given Deploy action(s).                            
+  exec               Executes a command (such as an interactive shell) in a running service.         
+  login              Log in to Garden Cloud.                                                         
+  logout             Log out of Garden Cloud.                                                        
+  quit               Exit the dev console.                                                           
+  reload             Reload the project and action/module configuration.                             
+  hide               Stop monitoring for logs for all or specified Deploy actions                    
+  log-level          Change the max log level of (future) printed logs in the console.               
+  cleanup deploy     Cleans up running deployments (or services if using modules).                   
+  cleanup namespace  Deletes a running namespace.                                                    
+  community          Join our community Discord to chat with us!                                     
+  create project     Create a new Garden project.                                                    
+  options            Print global options.                                                           
+  publish            Build and publish artifacts (e.g. container images) to a remote registry.       
+  self-update        Update the Garden CLI.                                                          
+  validate           Check your garden configuration for errors.                                     
+  workflow           Run a Workflow.                                                                 
+
+Other commands:
+
+  cloud groups list      List groups defined in Garden Cloud.                                        
+  cloud secrets create   Create secrets in Garden Cloud.                                             
+  cloud secrets delete   Delete secrets from Garden Cloud.                                           
+  cloud secrets list     List secrets defined in Garden Cloud.                                       
+  cloud secrets update   Update secrets in Garden Cloud                                              
+  cloud users create     Create users in Garden Cloud.                                               
+  cloud users delete     Delete users from Garden Cloud.                                             
+  cloud users list       List users defined in Garden Cloud.                                         
+  get actions            Outputs all or specified actions.                                           
+  get builds             Lists the build actions defined in your project.                            
+  get config             Outputs the full configuration for this project and environment.            
+  get debug-info         Outputs the status of your environment for debug purposes.                  
+  get deploys            Lists the deploy actions defined in your project.                           
+  get files              List all files from all or specified actions.                               
+  get graph              Outputs the dependency relationships across the project.                    
+  get linked-repos       Outputs a list of all linked remote sources, actions and modules for this   
+                         project.                                                                    
+  get modules            Outputs all or specified modules.                                           
+  get outputs            Resolves and returns the outputs of the project.                            
+  get run-result         Outputs the latest result of a run (or task, if using modules).             
+  get runs               Lists the run actions defined in your project.                              
+  get status             Outputs the full status of your project/environment and all actions.        
+  get test-result        Outputs the latest execution result of a provided test.                     
+  get tests              Lists the test actions defined in your project.                             
+  get workflows          Lists the workflows defined in your project.                                
+  link action            Link a remote action to a local directory.                                  
+  link module            Link a remote module to a local directory.                                  
+  link source            Link a remote source to a local directory.                                  
+  plugins                Plugin-specific commands.                                                   
+  sync restart           Restart any active syncs to the given Deploy action(s).                     
+  unlink action          Unlink a previously linked remote action from its local directory.          
+  unlink module          Unlink a previously linked remote module from its local directory.          
+  unlink source          Unlink a previously linked remote source from its local directory.          
+  update-remote actions  Update remote actions.                                                      
+  update-remote all      Update all remote sources, actions and modules.                             
+  update-remote modules  Update remote modules.                                                      
+  update-remote sources  Update remote sources.                                                      
+  util fetch-tools       Pre-fetch plugin tools.                                                     
+  util hide-warning      Hide a specific warning message.                                            
+  util mutagen           Run any Mutagen CLI command in the context of the current project.          
+  util profile-project   Renders a high-level summary of actions and modules in your project.        
+  version                Shows the current garden version.                                           
+
+Keys:
+
+  [tab]: auto-complete  [up/down]: command history  [ctrl-u]: clear line  [ctrl-d]: quit
+
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+
+[2025-02-17T17:08:40.406Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running sync start command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:08:40.421Z] Resolving providers...
+
+[2025-02-17T17:08:40.561Z] Configuring provider...
+
+[2025-02-17T17:08:40.565Z] Provider configured
+
+[2025-02-17T17:08:40.566Z] Preparing environment
+
+[2025-02-17T17:08:40.566Z] Provider ready
+
+[2025-02-17T17:08:40.569Z] Configuring provider...
+
+[2025-02-17T17:08:40.570Z] Fetching kubectl 1.31.2...
+
+[2025-02-17T17:08:43.883Z] Fetched kubectl 1.31.2
+
+[2025-02-17T17:08:43.912Z] Using current context: kind-kind
+
+[2025-02-17T17:08:43.913Z] Provider configured
+
+[2025-02-17T17:08:43.913Z] Preparing environment
+
+[2025-02-17T17:08:44.020Z] Installing ingress controller for kind cluster
+
+[2025-02-17T17:08:44.450Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:08:46.479Z] [kubernetes] Deployment/ingress-nginx-controller: 0/1 nodes are available: 1 node(s) didn't match Pod's node affinity/selector. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+
+[2025-02-17T17:09:49.754Z] Failed resolving one or more providers:
+- local-kubernetes
+
+[2025-02-17T17:09:49.755Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:10:32.925Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running sync start command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:10:32.944Z] Resolving providers...
+
+[2025-02-17T17:10:32.976Z] Configuring provider...
+
+[2025-02-17T17:10:32.979Z] Provider configured
+
+[2025-02-17T17:10:32.983Z] Configuring provider...
+
+[2025-02-17T17:10:32.984Z] Provider status cached
+
+[2025-02-17T17:10:33.011Z] Using current context: kind-kind
+
+[2025-02-17T17:10:33.013Z] Provider configured
+
+[2025-02-17T17:10:33.013Z] Preparing environment
+
+[2025-02-17T17:10:33.054Z] Installing ingress controller for kind cluster
+
+[2025-02-17T17:10:33.554Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:10:35.579Z] [kubernetes] Deployment/ingress-nginx-controller: 0/1 nodes are available: 1 node(s) didn't match Pod's node affinity/selector. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+
+[2025-02-17T17:11:38.853Z] Failed resolving one or more providers:
+- local-kubernetes
+
+[2025-02-17T17:11:38.853Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:18:55.000Z] Authorizing...
+
+[2025-02-17T17:18:55.057Z] Garden server has successfully started at port 9777
+
+
+[2025-02-17T17:19:02.704Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running sync start command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:19:02.725Z] Authorizing...
+
+[2025-02-17T17:19:02.726Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:19:02.726Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:19:02.790Z] Resolving providers...
+
+[2025-02-17T17:19:02.902Z] Configuring provider...
+
+[2025-02-17T17:19:02.907Z] Provider configured
+
+[2025-02-17T17:19:02.911Z] Provider status cached
+
+[2025-02-17T17:19:02.913Z] Configuring provider...
+
+[2025-02-17T17:19:02.942Z] Using current context: kind-kind
+
+[2025-02-17T17:19:02.943Z] Provider configured
+
+[2025-02-17T17:19:02.944Z] Preparing environment
+
+[2025-02-17T17:19:03.040Z] Installing ingress controller for kind cluster
+
+[2025-02-17T17:19:03.480Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:19:05.507Z] [kubernetes] Deployment/ingress-nginx-controller: MountVolume.SetUp failed for volume "webhook-cert" : secret "ingress-nginx-admission" not found
+
+[2025-02-17T17:19:23.122Z] [kubernetes] Deployment/ingress-nginx-controller: Pulling image "registry.k8s.io/ingress-nginx/controller:v1.12.0@sha256:e6b8de175acda6ca913891f0f727bca4527e797d52688cbe9fec9040d6f6b6fa"
+
+[2025-02-17T17:19:28.147Z] [kubernetes] Deployment/ingress-nginx-controller: Started container controller
+
+[2025-02-17T17:19:33.679Z] [kubernetes] Deployment/ingress-nginx-controller: RELOAD NGINX reload triggered due to a change in configuration
+
+[2025-02-17T17:19:39.685Z] [kubernetes] Resources ready
+
+[2025-02-17T17:19:39.686Z] Provider ready
+
+[2025-02-17T17:19:39.687Z] Finished resolving providers (took 36.9 sec)
+
+[2025-02-17T17:19:39.687Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2025-02-17T17:19:39.687Z] Resolving actions and modules...
+
+[2025-02-17T17:19:39.795Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:19:39.813Z] Aborting because upstream dependency failed.
+
+[2025-02-17T17:19:39.813Z] Aborting because upstream dependency failed.
+
+[2025-02-17T17:19:39.815Z] Deploy type=kubernetes name=kirop is not deployed, cannot start sync.
+
+[2025-02-17T17:19:39.817Z] Could not start any syncs. Aborting.
+
+Actions: deploy.kirop
+
+[2025-02-17T17:19:39.817Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:22:04.492Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2025-02-17T17:22:21.064Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running sync start command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:22:21.084Z] Authorizing...
+
+[2025-02-17T17:22:21.085Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:22:21.085Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:22:21.131Z] Resolving providers...
+
+[2025-02-17T17:22:21.166Z] Configuring provider...
+
+[2025-02-17T17:22:21.169Z] Provider configured
+
+[2025-02-17T17:22:21.171Z] Provider status cached
+
+[2025-02-17T17:22:21.172Z] Configuring provider...
+
+[2025-02-17T17:22:21.200Z] Using current context: kind-kind
+
+[2025-02-17T17:22:21.201Z] Provider configured
+
+[2025-02-17T17:22:21.202Z] Preparing environment
+
+[2025-02-17T17:22:21.225Z] Provider ready
+
+[2025-02-17T17:22:21.226Z] Finished resolving providers (took 0.1 sec)
+
+[2025-02-17T17:22:21.227Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2025-02-17T17:22:21.227Z] Resolving actions and modules...
+
+[2025-02-17T17:22:21.291Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:22:21.324Z] Deploy type=kubernetes name=kirop is not deployed, cannot start sync.
+
+[2025-02-17T17:22:21.324Z] Could not start any syncs. Aborting.
+
+Actions: deploy.kirop
+
+[2025-02-17T17:22:21.324Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:27:09.941Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running build command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:27:09.959Z] Resolving actions and modules...
+
+[2025-02-17T17:27:10.038Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:27:10.042Z] Getting status for Build kirop (type container) at version v-e657f6b9e8...
+
+[2025-02-17T17:27:10.281Z] Status is not ready, kirop will be built
+
+[2025-02-17T17:27:10.282Z] Building kirop (type container) at version v-e657f6b9e8...
+
+[2025-02-17T17:27:10.328Z] Building kirop:v-36733f3f3b...
+
+[2025-02-17T17:27:10.329Z] Fetching docker 27.1.1...
+
+[2025-02-17T17:27:13.841Z] Fetched docker 27.1.1 (took 3.5 sec)
+
+[2025-02-17T17:27:57.226Z] Done (took 46.9 sec)
+
+[2025-02-17T17:27:57.278Z] Done! 
+
+[2025-02-17T17:27:57.330Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Command build completed successfully! ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:28:11.595Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:28:11.614Z] Resolving actions and modules...
+
+[2025-02-17T17:28:11.699Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:28:11.705Z] Getting status for Deploy kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...
+
+[2025-02-17T17:28:11.709Z] Getting status for Deploy kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:28:11.716Z] Status is missing, kirop-crd-manifests will be deployed
+
+[2025-02-17T17:28:11.716Z] Deploying kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...
+
+[2025-02-17T17:28:11.718Z] Status is missing, kirop will be deployed
+
+[2025-02-17T17:28:11.719Z] Getting status for Build kirop (type container) at version v-e657f6b9e8...
+
+[2025-02-17T17:28:11.723Z] Fetching kustomize-5 5.4.2...
+
+[2025-02-17T17:28:11.768Z] Already built
+
+[2025-02-17T17:28:13.765Z] Fetched kustomize-5 5.4.2 (took 2 sec)
+
+[2025-02-17T17:28:13.867Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:28:15.875Z] [kubernetes] Resources ready
+
+[2025-02-17T17:28:15.886Z] Done (took 4.2 sec)
+
+[2025-02-17T17:28:15.887Z] Deploying kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:28:15.910Z] A patch is defined for a Kubernetes Deployment with name controller-manager but no Kubernetes resource with a corresponding kind and name found.
+
+[2025-02-17T17:28:15.969Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:28:17.975Z] [kubernetes] Resources ready
+
+[2025-02-17T17:28:18.283Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:28:20.350Z] Failed (took 4.5 sec)
+
+[2025-02-17T17:28:20.404Z] 1 requested deploy action(s) failed!
+
+[2025-02-17T17:28:20.404Z] 
+See .garden/error.log for detailed error message
+
+[2025-02-17T17:28:20.404Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:29:02.121Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2025-02-17T17:30:49.948Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:30:49.973Z] Authorizing...
+
+[2025-02-17T17:30:49.974Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:30:49.974Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:30:50.022Z] Resolving providers...
+
+[2025-02-17T17:30:50.047Z] Configuring provider...
+
+[2025-02-17T17:30:50.049Z] Provider configured
+
+[2025-02-17T17:30:50.051Z] Provider status cached
+
+[2025-02-17T17:30:50.052Z] Configuring provider...
+
+[2025-02-17T17:30:50.080Z] Using current context: kind-kind
+
+[2025-02-17T17:30:50.080Z] Provider configured
+
+[2025-02-17T17:30:50.081Z] Preparing environment
+
+[2025-02-17T17:30:50.106Z] Provider ready
+
+[2025-02-17T17:30:50.107Z] Finished resolving providers (took 0.1 sec)
+
+[2025-02-17T17:30:50.107Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2025-02-17T17:30:50.107Z] Resolving actions and modules...
+
+[2025-02-17T17:30:50.168Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:30:50.173Z] Getting status for Deploy kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...
+
+[2025-02-17T17:30:50.177Z] Getting status for Deploy kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:30:50.221Z] Already deployed
+
+[2025-02-17T17:30:50.252Z] Status is unhealthy, kirop will be deployed
+
+[2025-02-17T17:30:50.253Z] Getting status for Build kirop (type container) at version v-e657f6b9e8...
+
+[2025-02-17T17:30:50.309Z] Already built
+
+[2025-02-17T17:30:50.310Z] Deploying kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:30:50.331Z] A patch is defined for a Kubernetes Deployment with name controller-manager but no Kubernetes resource with a corresponding kind and name found.
+
+[2025-02-17T17:30:50.416Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:30:52.427Z] [kubernetes] Resources ready
+
+[2025-02-17T17:30:52.807Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:30:54.864Z] Failed (took 4.6 sec)
+
+[2025-02-17T17:30:54.917Z] 1 requested deploy action(s) failed!
+
+[2025-02-17T17:30:54.917Z] 
+See .garden/error.log for detailed error message
+
+[2025-02-17T17:30:54.917Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:31:47.426Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2025-02-17T17:32:35.174Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running deploy command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:32:35.200Z] Authorizing...
+
+[2025-02-17T17:32:35.200Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:32:35.200Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:32:35.249Z] Resolving providers...
+
+[2025-02-17T17:32:35.268Z] Configuring provider...
+
+[2025-02-17T17:32:35.270Z] Provider configured
+
+[2025-02-17T17:32:35.272Z] Provider status cached
+
+[2025-02-17T17:32:35.272Z] Configuring provider...
+
+[2025-02-17T17:32:35.303Z] Using current context: kind-kind
+
+[2025-02-17T17:32:35.303Z] Provider configured
+
+[2025-02-17T17:32:35.304Z] Preparing environment
+
+[2025-02-17T17:32:35.328Z] Provider ready
+
+[2025-02-17T17:32:35.329Z] Finished resolving providers (took 0.1 sec)
+
+[2025-02-17T17:32:35.329Z] Some provider statuses were cached. Run with --force-refresh to force a refresh of provider statuses.
+
+[2025-02-17T17:32:35.329Z] Resolving actions and modules...
+
+[2025-02-17T17:32:35.391Z] Finished resolving graph (took 0.1 sec)
+
+[2025-02-17T17:32:35.396Z] Getting status for Deploy kirop-crd-manifests (type kubernetes) at version v-287d9f4a56...
+
+[2025-02-17T17:32:35.399Z] Getting status for Deploy kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:32:35.447Z] Already deployed
+
+[2025-02-17T17:32:35.472Z] Status is unhealthy, kirop will be deployed
+
+[2025-02-17T17:32:35.473Z] Getting status for Build kirop (type container) at version v-e657f6b9e8...
+
+[2025-02-17T17:32:35.539Z] Already built
+
+[2025-02-17T17:32:35.540Z] Deploying kirop (type kubernetes) at version v-2375afdf63...
+
+[2025-02-17T17:32:35.560Z] A patch is defined for a Kubernetes Deployment with name controller-manager but no Kubernetes resource with a corresponding kind and name found.
+
+[2025-02-17T17:32:35.649Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:32:37.655Z] [kubernetes] Resources ready
+
+[2025-02-17T17:32:38.036Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:32:40.092Z] Failed (took 4.6 sec)
+
+[2025-02-17T17:32:40.144Z] 1 requested deploy action(s) failed!
+
+[2025-02-17T17:32:40.144Z] 
+See .garden/error.log for detailed error message
+
+[2025-02-17T17:32:40.144Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:39:35.360Z] Config change detected. Project will be reloaded when the next command is run.
+
+[2025-02-17T17:39:50.827Z] Authorizing...

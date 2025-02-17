@@ -1,0 +1,392 @@
+
+[2025-02-17T17:08:03.820Z] [verbose] Initializing Garden context for local (none found for key)
+
+[2025-02-17T17:08:03.821Z] [debug] Instance key: env=local
+
+[2025-02-17T17:08:03.831Z] Authorizing...
+
+[2025-02-17T17:08:03.831Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T17:08:03.832Z] [debug] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:08:03.832Z] [debug] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:08:03.839Z] [debug] Garden context updated for key env=local
+
+[2025-02-17T17:08:03.840Z] [verbose] Scanning project root at /home/marek/code/job_hunting
+  → Includes: **/*garden.y*ml
+  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2025-02-17T17:08:03.878Z] [verbose] Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)
+
+[2025-02-17T17:08:03.882Z] [debug] Scanned and found 3 actions, 0 workflows and 0 modules
+
+[2025-02-17T17:08:03.882Z] [debug] Watcher: Initializing
+
+[2025-02-17T17:08:03.882Z] [debug] Watcher: Starting FSWatcher
+
+[2025-02-17T17:08:03.882Z] [debug] Watcher: Add 2 paths
+
+[2025-02-17T17:08:03.884Z] [debug] Watcher: Ready
+
+[2025-02-17T17:08:03.890Z] Garden server has successfully started at port 9777
+
+
+[2025-02-17T17:08:03.909Z] [debug] Cleaning up 2 paths from watcher
+
+[2025-02-17T17:08:08.229Z] [verbose] Initializing Garden context for local (none found for key)
+
+[2025-02-17T17:08:08.229Z] [debug] Instance key: env=local
+
+[2025-02-17T17:08:08.239Z] Authorizing...
+
+[2025-02-17T17:08:08.239Z] [debug] No auth token found, proceeding without access to the Garden dashboard. Command results for this command run will not be available in the Garden dashboard.
+
+[2025-02-17T17:08:08.239Z] You are not logged in. To use the Garden dashboard, log in with the garden login command.
+
+[2025-02-17T17:08:08.240Z] Learn more at: https://docs.garden.io/using-garden/dashboard
+
+[2025-02-17T17:08:08.244Z] [debug] Garden context updated for key env=local
+
+[2025-02-17T17:08:08.245Z] [verbose] Scanning project root at /home/marek/code/job_hunting
+  → Includes: **/*garden.y*ml
+  → Excludes: .garden/**/*,.git,.gitmodules,.garden/**/*,debug-info*/**
+
+[2025-02-17T17:08:08.281Z] [verbose] Found 2 files in project root /home/marek/code/job_hunting (took 0.04 sec)
+
+[2025-02-17T17:08:08.283Z] [debug] Scanned and found 3 actions, 0 workflows and 0 modules
+
+[2025-02-17T17:08:08.283Z] [debug] Watcher: Add 2 paths
+
+[2025-02-17T17:08:08.315Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ help ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+Popular commands:
+
+  build              Perform your Builds.                                                            
+  deploy             Deploy actions to your environment.                                             
+  test               Run all or specified Test actions in the project.                               
+  run                Perform one or more Run actions                                                 
+  up                 Spin up your stack with the dev console and streaming logs.                     
+  logs               Retrieves the most recent logs for the specified Deploy(s).                     
+  sync start         Start any configured syncs to the given Deploy action(s).                       
+  sync status        Get sync statuses.                                                              
+  sync stop          Stop any active syncs to the given Deploy action(s).                            
+  exec               Executes a command (such as an interactive shell) in a running service.         
+  login              Log in to Garden Cloud.                                                         
+  logout             Log out of Garden Cloud.                                                        
+  quit               Exit the dev console.                                                           
+  reload             Reload the project and action/module configuration.                             
+  hide               Stop monitoring for logs for all or specified Deploy actions                    
+  log-level          Change the max log level of (future) printed logs in the console.               
+  cleanup deploy     Cleans up running deployments (or services if using modules).                   
+  cleanup namespace  Deletes a running namespace.                                                    
+  community          Join our community Discord to chat with us!                                     
+  create project     Create a new Garden project.                                                    
+  options            Print global options.                                                           
+  publish            Build and publish artifacts (e.g. container images) to a remote registry.       
+  self-update        Update the Garden CLI.                                                          
+  validate           Check your garden configuration for errors.                                     
+  workflow           Run a Workflow.                                                                 
+
+Other commands:
+
+  cloud groups list      List groups defined in Garden Cloud.                                        
+  cloud secrets create   Create secrets in Garden Cloud.                                             
+  cloud secrets delete   Delete secrets from Garden Cloud.                                           
+  cloud secrets list     List secrets defined in Garden Cloud.                                       
+  cloud secrets update   Update secrets in Garden Cloud                                              
+  cloud users create     Create users in Garden Cloud.                                               
+  cloud users delete     Delete users from Garden Cloud.                                             
+  cloud users list       List users defined in Garden Cloud.                                         
+  get actions            Outputs all or specified actions.                                           
+  get builds             Lists the build actions defined in your project.                            
+  get config             Outputs the full configuration for this project and environment.            
+  get debug-info         Outputs the status of your environment for debug purposes.                  
+  get deploys            Lists the deploy actions defined in your project.                           
+  get files              List all files from all or specified actions.                               
+  get graph              Outputs the dependency relationships across the project.                    
+  get linked-repos       Outputs a list of all linked remote sources, actions and modules for this   
+                         project.                                                                    
+  get modules            Outputs all or specified modules.                                           
+  get outputs            Resolves and returns the outputs of the project.                            
+  get run-result         Outputs the latest result of a run (or task, if using modules).             
+  get runs               Lists the run actions defined in your project.                              
+  get status             Outputs the full status of your project/environment and all actions.        
+  get test-result        Outputs the latest execution result of a provided test.                     
+  get tests              Lists the test actions defined in your project.                             
+  get workflows          Lists the workflows defined in your project.                                
+  link action            Link a remote action to a local directory.                                  
+  link module            Link a remote module to a local directory.                                  
+  link source            Link a remote source to a local directory.                                  
+  plugins                Plugin-specific commands.                                                   
+  sync restart           Restart any active syncs to the given Deploy action(s).                     
+  unlink action          Unlink a previously linked remote action from its local directory.          
+  unlink module          Unlink a previously linked remote module from its local directory.          
+  unlink source          Unlink a previously linked remote source from its local directory.          
+  update-remote actions  Update remote actions.                                                      
+  update-remote all      Update all remote sources, actions and modules.                             
+  update-remote modules  Update remote modules.                                                      
+  update-remote sources  Update remote sources.                                                      
+  util fetch-tools       Pre-fetch plugin tools.                                                     
+  util hide-warning      Hide a specific warning message.                                            
+  util mutagen           Run any Mutagen CLI command in the context of the current project.          
+  util profile-project   Renders a high-level summary of actions and modules in your project.        
+  version                Shows the current garden version.                                           
+
+Keys:
+
+  [tab]: auto-complete  [up/down]: command history  [ctrl-u]: clear line  [ctrl-d]: quit
+
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+
+[2025-02-17T17:08:08.316Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:08:40.406Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running sync start command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:08:40.421Z] Resolving providers...
+
+[2025-02-17T17:08:40.561Z] Configuring provider...
+
+[2025-02-17T17:08:40.561Z] [debug] Configuring provider...
+
+[2025-02-17T17:08:40.562Z] [debug] Configuring provider...
+
+[2025-02-17T17:08:40.565Z] Provider configured
+
+[2025-02-17T17:08:40.565Z] [debug] Provider configured
+
+[2025-02-17T17:08:40.565Z] [debug] Provider configured
+
+[2025-02-17T17:08:40.566Z] Preparing environment
+
+[2025-02-17T17:08:40.566Z] Provider ready
+
+[2025-02-17T17:08:40.567Z] [debug] Preparing environment
+
+[2025-02-17T17:08:40.567Z] [debug] Provider ready
+
+[2025-02-17T17:08:40.567Z] [debug] Preparing environment
+
+[2025-02-17T17:08:40.567Z] [debug] Provider ready
+
+[2025-02-17T17:08:40.568Z] [verbose] resolve provider exec is ready.
+
+[2025-02-17T17:08:40.568Z] [verbose] resolve provider templated is ready.
+
+[2025-02-17T17:08:40.568Z] [verbose] resolve provider container is ready.
+
+[2025-02-17T17:08:40.569Z] Configuring provider...
+
+[2025-02-17T17:08:40.570Z] Fetching kubectl 1.31.2...
+
+[2025-02-17T17:08:40.570Z] [debug] Downloading https://dl.k8s.io/v1.31.2/kubernetes-client-linux-amd64.tar.gz...
+
+[2025-02-17T17:08:43.882Z] [debug] Done
+
+[2025-02-17T17:08:43.882Z] Fetched kubectl 1.31.2
+
+[2025-02-17T17:08:43.912Z] Using current context: kind-kind
+
+[2025-02-17T17:08:43.913Z] Provider configured
+
+[2025-02-17T17:08:43.913Z] Preparing environment
+
+[2025-02-17T17:08:43.920Z] [debug] Found kind with the following version details kind v0.22.0 go1.22.1 linux/amd64
+
+[2025-02-17T17:08:43.952Z] [debug] Kubernetes: Getting API resource info for group apps/v1
+
+[2025-02-17T17:08:43.974Z] [verbose] Creating namespace kir-flop-kir-flop-marek
+
+[2025-02-17T17:08:44.003Z] [verbose] Creating namespace garden-system
+
+[2025-02-17T17:08:44.019Z] [debug] Status of ingress controller: missing
+
+[2025-02-17T17:08:44.020Z] Installing ingress controller for kind cluster
+
+[2025-02-17T17:08:44.450Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:08:44.450Z] [verbose] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:08:46.478Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:08:46.478Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:08:46.478Z] [kubernetes] Deployment/ingress-nginx-controller: 0/1 nodes are available: 1 node(s) didn't match Pod's node affinity/selector. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+
+[2025-02-17T17:08:46.479Z] [verbose] [kubernetes] Deployment/ingress-nginx-controller: 0/1 nodes are available: 1 node(s) didn't match Pod's node affinity/selector. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+
+[2025-02-17T17:08:49.002Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:08:49.002Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:08:52.026Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:08:52.026Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:08:55.547Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:08:55.547Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:08:59.570Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:08:59.570Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:04.093Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:04.093Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:09.114Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:09.114Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:14.637Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:14.638Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:20.662Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:20.662Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:27.186Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:27.186Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:34.206Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:34.207Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:41.728Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:41.728Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:49.750Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:49.750Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:09:49.750Z] [verbose] [kubernetes] Timed out waiting for providers to deploy after 60 seconds
+
+[2025-02-17T17:09:49.753Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:09:49.753Z] Failed resolving one or more providers:
+- local-kubernetes
+
+[2025-02-17T17:09:49.755Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:10:32.925Z] 
+┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ Running sync start command... ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:10:32.944Z] Resolving providers...
+
+[2025-02-17T17:10:32.976Z] Configuring provider...
+
+[2025-02-17T17:10:32.977Z] [debug] Configuring provider...
+
+[2025-02-17T17:10:32.977Z] [debug] Configuring provider...
+
+[2025-02-17T17:10:32.979Z] Provider configured
+
+[2025-02-17T17:10:32.980Z] [debug] Provider configured
+
+[2025-02-17T17:10:32.980Z] [debug] Provider configured
+
+[2025-02-17T17:10:32.982Z] [debug] Provider status cached
+
+[2025-02-17T17:10:32.982Z] [verbose] resolve provider container is ready.
+
+[2025-02-17T17:10:32.983Z] Configuring provider...
+
+[2025-02-17T17:10:32.983Z] [debug] Provider status cached
+
+[2025-02-17T17:10:32.983Z] [verbose] resolve provider templated is ready.
+
+[2025-02-17T17:10:32.984Z] Provider status cached
+
+[2025-02-17T17:10:32.984Z] [verbose] resolve provider exec is ready.
+
+[2025-02-17T17:10:33.011Z] Using current context: kind-kind
+
+[2025-02-17T17:10:33.013Z] Provider configured
+
+[2025-02-17T17:10:33.013Z] Preparing environment
+
+[2025-02-17T17:10:33.019Z] [debug] Found kind with the following version details kind v0.22.0 go1.22.1 linux/amd64
+
+[2025-02-17T17:10:33.053Z] [debug] Status of ingress controller: deploying
+
+[2025-02-17T17:10:33.053Z] Installing ingress controller for kind cluster
+
+[2025-02-17T17:10:33.554Z] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:10:33.554Z] [verbose] [kubernetes] Waiting for resources to be ready...
+
+[2025-02-17T17:10:35.579Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:35.579Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:35.579Z] [kubernetes] Deployment/ingress-nginx-controller: 0/1 nodes are available: 1 node(s) didn't match Pod's node affinity/selector. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+
+[2025-02-17T17:10:35.579Z] [verbose] [kubernetes] Deployment/ingress-nginx-controller: 0/1 nodes are available: 1 node(s) didn't match Pod's node affinity/selector. preemption: 0/1 nodes are available: 1 Preemption is not helpful for scheduling.
+
+[2025-02-17T17:10:38.102Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:38.102Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:41.124Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:41.124Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:44.645Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:44.645Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:48.668Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:48.668Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:53.192Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:53.192Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:58.216Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:10:58.216Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:03.737Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:03.737Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:09.761Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:09.761Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:16.283Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:16.283Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:23.306Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:23.306Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:30.828Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:30.828Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:38.852Z] [debug] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:38.852Z] [verbose] [kubernetes] Status of Deployment ingress-nginx-controller is "deploying"
+
+[2025-02-17T17:11:38.852Z] [verbose] [kubernetes] Timed out waiting for providers to deploy after 60 seconds
+
+[2025-02-17T17:11:38.853Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:11:38.853Z] Failed resolving one or more providers:
+- local-kubernetes
+
+[2025-02-17T17:11:38.853Z] ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+
+[2025-02-17T17:16:20.904Z] [debug] Done flushing all events and log entries.
+
+[2025-02-17T17:16:20.904Z] [debug] Done flushing all events and log entries.

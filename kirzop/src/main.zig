@@ -56,29 +56,41 @@ fn put_data(r: zap.Request) void {
     // save run data in database
     // because we failed at sqlite we are using memory for now
     std.debug.print("We got a message to stabe data!\n", .{});
-    std.debug.print("Body: {d}\n", .{data_list.items.len});
     const data = if (r.body) |b| b else {
         std.debug.print("No data received\n", .{});
         return;
     };
-    data_list.append(data) catch {
-        std.debug.print("Append Failed\n", .{});
+    conn.exec("insert into btrees (json) values (?1)", .{data}) catch {
+        std.debug.print("Failed to insert data into sqlite db\n", .{});
+        r.setStatus(.internal_server_error);
+        r.sendBody("Failed to insert data") catch {
+            std.debug.print("Failed to send response\n", .{});
+        };
         return;
     };
 }
 
 fn get_data(r: zap.Request) void {
-    if (data_list.items.len > 0) {
-        std.debug.print("Length: {d}\n", .{data_list.items.len});
-        r.sendJson(data_list.items[data_list.items.len - 1]) catch {
-            std.debug.print("Failed to send latest data\n", .{});
-            return;
+    var rows = conn.rows("select * from btrees order by id DESC", .{}) catch {
+        std.debug.print("Failed to get data from sqlite db\n", .{});
+        r.setStatus(.internal_server_error);
+        r.sendBody("Failed to get data") catch {
+            std.debug.print("Failed to send response\n", .{});
         };
-    } else {
-        r.sendBody("No data available") catch {
-            std.debug.print("Failed to send body\n", .{});
-            return;
-        };
+        return;
+    };
+    //defer rows.deinit();
+    const first = if (rows.next()) |first| first else {
+        std.debug.print("Failed to get first row from db\n", .{});
+        return;
+    };
+
+    r.sendJson(first.text(1)) catch {
+        std.debug.print("Failed to send latest data\n", .{});
+        return;
+    };
+    while (rows.next()) |row| {
+        std.debug.print("name: {s}\n", .{row.text(0)});
     }
 }
 
