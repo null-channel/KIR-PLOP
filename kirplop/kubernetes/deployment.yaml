@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kirplop
+  labels:
+    app: kirplop
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kirplop
+  template:
+    metadata:
+      labels:
+        app: kirplop
+    spec:
+      containers:
+      - name: kirplop
+        image: kirplop:latest
+        imagePullPolicy: Never  # For local development
+        ports:
+        - containerPort: 80
+        env:
+        - name: KUBERNETES_API_URL
+          valueFrom:
+            configMapKeyRef:
+              name: tree-controller-config
+              key: kubernetes_api_url
+        - name: KUBERNETES_API_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: tree-controller-secret
+              key: api_token
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
+          requests:
+            cpu: "200m"
+            memory: "256Mi"
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 80
+          initialDelaySeconds: 15
+          periodSeconds: 20
